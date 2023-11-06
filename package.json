@@ -1,0 +1,10 @@
+{
+  "name": "kupieca.work",
+  "packageManager": "yarn@4.0.1",
+  "scripts": {
+    "fix": "prettier -w docs/"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
