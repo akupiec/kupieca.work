@@ -122,22 +122,21 @@ footer > h1 {
   width: 100%;
 }
 
-footer .person:first-child {
-  flex: 6;
-  margin-right: var(--grid-gap);
-}
 
 footer .person {
-  flex: 8;
+  flex: 7;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-column-gap: var(--grid-gap);
   margin-bottom: 40px;
+}
+footer .person:first-of-type {
+  margin-right: var(--grid-gap);
 }
 
 footer h5 {
   margin-top: 0;
-  grid-column: span 6;
+  grid-column: span 7;
 }
 
 footer a.mail {
@@ -146,7 +145,7 @@ footer a.mail {
   font-size: 36px;
   font-weight: 700;
   text-decoration: none;
-  grid-column: span 6;
+  grid-column: span 7;
 }
 
 footer .rights {
