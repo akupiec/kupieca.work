@@ -44,6 +44,7 @@ body {
 .circle-area p {
   color: #fff;
   font-size: 32px;
+  font-weight: 700;
   line-height: 150%;
 }
 
@@ -98,6 +99,7 @@ body {
 
   color: #001aff;
   font-size: 24px;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -142,6 +144,7 @@ footer a.mail {
   display: block;
   color: #001aff;
   font-size: 36px;
+  font-weight: 700;
   text-decoration: none;
   grid-column: span 6;
 }
