@@ -3,8 +3,8 @@
   "packageManager": "bun@1.0.26",
   "scripts": {
     "prepare": "husky",
-    "test": "prettier -c docs/",
-    "start": "http-server docs/"
+    "test": "prettier -c _site/",
+    "start": "http-server _site/"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
