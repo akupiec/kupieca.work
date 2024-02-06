@@ -1,11 +1,15 @@
 {
   "name": "kupieca.work",
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "bun@1.0.26",
   "scripts": {
-    "fix": "prettier -w docs/"
+    "prepare": "husky",
+    "test": "prettier -c docs/",
+    "start": "http-server docs/"
   },
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "http-server": "^14.1.1",
+    "husky": "^9.0.10",
+    "prettier": "^3.2.5"
   },
   "prettier": {
     "printWidth": 120,

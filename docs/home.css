@@ -122,7 +122,6 @@ footer > h1 {
   width: 100%;
 }
 
-
 footer .person {
   flex: 7;
   display: grid;
@@ -168,14 +167,14 @@ a.social {
 }
 
 a.mail:hover {
-  color: #030C62;
+  color: #030c62;
 }
 
 a:hover img,
 a:hover img {
   /*TODO: create mixin color filter generator*/
-  filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(3939%)
-  hue-rotate(233deg) brightness(74%) contrast(119%);
+  filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(3939%) hue-rotate(233deg) brightness(74%)
+    contrast(119%);
 }
 
 @media screen and (max-width: 900px) {

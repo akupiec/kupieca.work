@@ -61,7 +61,7 @@ body img {
     transform: rotate(90deg);
     border-radius: 10%;
   }
-  75%{
+  75% {
     transform: rotate(-90deg);
   }
   100% {
