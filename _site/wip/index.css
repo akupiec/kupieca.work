@@ -57,7 +57,7 @@ body img {
     border-radius: 50%;
   }
   50% {
-    background-color: darkgreen;
+    background-color: #3d3de6;
     transform: rotate(90deg);
     border-radius: 10%;
   }
