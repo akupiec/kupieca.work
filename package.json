@@ -3,7 +3,7 @@
   "scripts": {
     "prepare": "husky",
     "test": "prettier -c _site/",
-    "start": "http-server _site/"
+    "start": "http-server -c-1 _site/"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
