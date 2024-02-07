@@ -20,8 +20,8 @@ body {
   background-color: #5364f7;
   width: 1498px;
   height: 1498px;
-  top: -395px;
-  left: -322px;
+  top: -500px;
+  left: -460px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -70,11 +70,11 @@ body {
 }
 
 .cards-area .content {
-  padding: 10px;
+  padding: 0px;
 }
 
 .cards-area h3 {
-  margin: 47px 0 24px 0;
+  margin: 52px 0 16px 0;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -86,16 +86,16 @@ body {
 
 .cards-area small {
   display: block;
-  margin: 24px 0 52px 0;
+  margin: 16px 0 52px 0;
 
   color: #717171;
   font-size: 24px;
-  height: 56px;
+  height: 24px;
 }
 
 .cards-area a.mail {
   display: block;
-  margin: 52px 0 86px 0;
+  margin: 52px 0 52px 0;
 
   color: #001aff;
   font-size: 24px;
@@ -107,7 +107,7 @@ body {
   display: block;
   width: 39px;
   height: 39px;
-  margin: 20px auto;
+  margin: 24px auto;
 }
 
 footer {
