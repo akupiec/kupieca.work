@@ -70,10 +70,6 @@ body {
   margin-left: var(--grid-gap);
 }
 
-.cards-area .content {
-  padding: 0;
-}
-
 .cards-area h3 {
   margin: 52px 0 16px 0;
   font-size: 36px;
@@ -91,7 +87,6 @@ body {
 
   color: #717171;
   font-size: 24px;
-  height: 24px;
 }
 
 .cards-area a.mail {
@@ -105,7 +100,7 @@ body {
 }
 
 .cards-area a.goto {
-  display: block;
+  display: inline-block;
   width: 39px;
   height: 39px;
   margin: 24px auto;
