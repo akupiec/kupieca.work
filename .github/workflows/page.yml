@@ -1,4 +1,4 @@
-name: Test And Publish
+name: Publish page
 
 on:
   push:
@@ -19,13 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Build & Test App
-        uses: oven-sh/setup-bun@v1
-      - name: install, build and test
-        run: |
-          bun install
-          bun run test
+        uses: actions/checkout@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
   # Deployment job

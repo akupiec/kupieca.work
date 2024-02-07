@@ -1,6 +1,5 @@
 {
   "name": "kupieca.work",
-  "packageManager": "bun@1.0.26",
   "scripts": {
     "prepare": "husky",
     "test": "prettier -c _site/",
@@ -14,5 +13,9 @@
   "prettier": {
     "printWidth": 120,
     "bracketSameLine": true
+  },
+  "packageManager": "pnpm@8.11.0",
+  "engines": {
+    "node": ">=18"
   }
 }
