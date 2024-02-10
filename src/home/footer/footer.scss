@@ -1,0 +1,78 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  margin: 96px 0 68px 0;
+}
+
+footer > h1 {
+  width: 100%;
+}
+
+footer .person {
+  flex: 7;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: var(--grid-gap);
+  margin-bottom: 40px;
+}
+
+footer .person:first-of-type {
+  margin-right: var(--grid-gap);
+}
+
+footer h5 {
+  margin-top: 0;
+  grid-column: span 7;
+}
+
+footer a.mail {
+  display: block;
+  color: #001aff;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  grid-column: span 7;
+}
+
+footer .rights {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+footer a.social {
+  display: inline-block;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  margin: 24px 12px 48px 0;
+  background-size: contain;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+  footer a.mail {
+    font-size: 24px;
+  }
+
+  footer a.social {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    margin-left: var(--page-margin);
+    margin-right: var(--page-margin);
+  }
+  footer .rights {
+    right: var(--page-margin);
+  }
+}

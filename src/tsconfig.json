@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dst",
+    "allowJs": true,
+    "module": "ES2022",
+    "target": "ES2022",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "jsxImportSource": "preact",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment"
+  },
+  "include": ["./**/*"]
+}

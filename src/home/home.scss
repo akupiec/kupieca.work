@@ -1,0 +1,58 @@
+:root {
+  --page-margin: 150px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+a.mail:hover {
+  color: #030c62;
+}
+a:hover img,
+a:hover img {
+  /*TODO: create mixin color filter generator*/
+  filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(3939%) hue-rotate(233deg) brightness(74%)
+    contrast(119%);
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --page-margin: 80px;
+  }
+
+  .page-content {
+    margin-top: 60px;
+    margin-bottom: 46px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  :root {
+    --page-margin: var(--grid-gap);
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+  }
+  .page-content {
+    margin-left: var(--page-margin);
+    margin-right: var(--page-margin);
+  }
+}
+
+@import "circle/circle";
+@import "cards/cards";
+@import "footer/footer";
