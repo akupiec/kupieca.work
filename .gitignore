@@ -1,5 +1,5 @@
 .idea/
 node_modules/
-_site/home.css.map
-_side/home.css
-_side/index.html
+_site
+!_site/assets
+!_site/CNAME

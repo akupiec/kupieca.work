@@ -4,8 +4,11 @@
     "prepare": "husky",
     "test": "prettier -c _site/",
     "fix": "prettier -w _site/",
-    "start": "tsx --watch --tsconfig src/tsconfig.json src/render.ts & live-server _site/ & sass -w src/home/home.scss _site/home.css",
-    "build": "tsx --tsconfig src/tsconfig.json src/render.ts && sass src/home/home.scss _site/home.css"
+    "start": "concurrently pnpm:start:dev pnpm:start:server pnpm:start:css",
+    "start:dev": "tsx --watch --tsconfig src/tsconfig.json src/render.ts ",
+    "start:server": "live-server _site/",
+    "start:css": "concurrently 'sass -w src/home/home.scss _site/home.css' 'sass -w src/ala/ala.scss _site/ala/ala.css' 'sass -w src/art/art.scss _site/art/art.css'",
+    "build": "tsx --tsconfig src/tsconfig.json src/render.ts && sass src/home/home.scss _site/home.css && sass src/ala/ala.scss _site/ala/ala.css && sass src/art/art.scss _site/art/art.css"
   },
   "dependencies": {
     "preact": "^10.19.3",
@@ -13,6 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "concurrently": "^8.2.2",
     "husky": "^9.0.10",
     "live-server": "^1.2.2",
     "prettier": "^3.2.5",
