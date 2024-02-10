@@ -1,0 +1,33 @@
+:root {
+  --black: #121212;
+  --white-100: #fbfbfb;
+  --white-200: #d4d4d4;
+  --gray-100: #717171;
+  --green-100: #b5d708;
+  --green-200: #60673f;
+  --blue-100: #5364f7;
+  --blue-200: #021cec;
+
+  --bg: var(--white-100);
+  --fg: var(--black);
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+  display: block;
+
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+body.dark-theme {
+  --bg: var(--black);
+  --fg: var(--white-200);
+}
+
+body.light-theme {
+  --bg: var(--white-100);
+  --fg: var(--black);
+}

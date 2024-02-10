@@ -1,0 +1,59 @@
+$switch-width: 100px;
+$pill-left: 5px;
+
+$switch-height: calc($switch-width / 2);
+$pill-size: calc($switch-height * 0.9);
+$pill-top: calc($switch-height / 2 - $pill-size / 2);
+$pill-move: calc($switch-width - $pill-left - $pill-size);
+
+input[type="checkbox"].toggle-switch {
+  --light: #d8dbe0;
+  --dark: #28292c;
+
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    width: $switch-width;
+    height: $switch-height;
+    display: inline-block;
+    border-radius: $switch-height;
+    background-color: var(--dark);
+    clear: both;
+  }
+
+  &:checked:after {
+    background-color: var(--light);
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: $pill-top;
+    left: $pill-left;
+    width: $pill-size;
+    height: $pill-size;
+    border-radius: 50%;
+    background: url("/assets/Moon.svg") no-repeat center;
+    background-size: cover;
+    transition: 0.3s;
+  }
+
+  &:checked:before {
+    left: $pill-move;
+    background-image: url("/assets/Sun.svg");
+  }
+
+  &:before,
+  &:after,
+  &:checked:before,
+  &:checked:after {
+    transition: ease 0.3s;
+  }
+}

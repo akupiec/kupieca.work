@@ -1,0 +1,23 @@
+@import "./navBar/navBar";
+
+header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  a {
+    color: var(--fg);
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      font-weight: 600;
+    }
+
+    &.active {
+      font-weight: 700;
+    }
+  }
+}

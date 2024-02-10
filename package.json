@@ -2,13 +2,13 @@
   "name": "kupieca.work",
   "scripts": {
     "prepare": "husky",
-    "test": "prettier -c _site/",
-    "fix": "prettier -w _site/",
+    "test": "prettier -c src/",
+    "fix": "prettier -w src/",
     "start": "concurrently pnpm:start:dev pnpm:start:server pnpm:start:css",
     "start:dev": "tsx --watch --tsconfig src/tsconfig.json src/render.ts ",
     "start:server": "live-server _site/",
-    "start:css": "concurrently 'sass -w src/home/home.scss _site/home.css' 'sass -w src/ala/ala.scss _site/ala/ala.css' 'sass -w src/art/art.scss _site/art/art.css'",
-    "build": "tsx --tsconfig src/tsconfig.json src/render.ts && sass src/home/home.scss _site/home.css && sass src/ala/ala.scss _site/ala/ala.css && sass src/art/art.scss _site/art/art.css"
+    "start:css": "node scripts/css.mjs --watch",
+    "build": "tsx --tsconfig src/tsconfig.json src/render.ts && node scripts/css.mjs"
   },
   "dependencies": {
     "preact": "^10.19.3",
@@ -17,10 +17,11 @@
   "devDependencies": {
     "@types/node": "^20.11.17",
     "concurrently": "^8.2.2",
+    "esbuild": "^0.20.0",
+    "esbuild-sass-plugin": "^3.0.0",
     "husky": "^9.0.10",
     "live-server": "^1.2.2",
     "prettier": "^3.2.5",
-    "sass": "^1.70.0",
     "tsx": "^4.7.1"
   },
   "prettier": {

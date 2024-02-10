@@ -1,8 +1,1 @@
-import { Menu } from "../common/menu";
-
-export const Art = (
-  <div>
-    <Menu />
-    WIP
-  </div>
-);
+export const Art = <div>WIP</div>;

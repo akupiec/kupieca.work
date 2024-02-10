@@ -1,5 +1,6 @@
 .idea/
 node_modules/
-_site
-!_site/assets
-!_site/CNAME
+_site/**/*.html
+_site/**/*.css
+_site/**/*.css.map
+/_site/index.html
