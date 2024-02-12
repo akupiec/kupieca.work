@@ -5,20 +5,25 @@ const isWatchMode = process.argv.some((a) => a.includes("watch"));
 
 const ctx = await esbuild.context({
   entryPoints: [
-    { in: "src/common.scss", out: "styles/common" },
-    { in: "src/home/home.scss", out: "styles/home" },
-    { in: "src/ala/ala.scss", out: "styles/ala" },
-    { in: "src/ala/about/about.scss", out: "styles/ala-about" },
-    { in: "src/art/art.scss", out: "styles/art" }
+    "src/common.scss",
+    "src/home/home.scss",
+    "src/ala/ala.scss",
+    "src/ala/about/about.scss",
+    "src/ala/healthQuestProject/project.scss",
+    "src/ala/ConversationWithDadProject/project.scss",
+    "src/ala/UXWritingFlashcards/project.scss",
+    "src/ala/MoralDesignClub/project.scss",
+    "src/ala/KinoPodBaranami/project.scss",
+    "src/art/art.scss",
   ],
   bundle: true,
   plugins: [
     sassPlugin({
       loadPaths: ["src/"],
-    })
+    }),
   ],
-  external: ['/assets/*.svg'],
-  outdir: "_site"
+  external: ["/assets/*.svg"],
+  outdir: "_site",
 });
 
 if (isWatchMode) {

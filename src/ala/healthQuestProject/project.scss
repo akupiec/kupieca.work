@@ -1,0 +1,175 @@
+@import "../ala";
+
+.banner {
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.process-arrow {
+  display: none;
+}
+
+.content {
+  width: 75%;
+  margin-right: 3rem;
+}
+
+.app {
+  h5 {
+    margin-top: 2rem;
+  }
+
+  h3:first-child {
+    margin-top: 1rem;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--gray-100);
+  opacity: 0.1;
+  margin: 4rem 0;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--gray-100);
+}
+
+.phone {
+  margin-top: 4rem;
+
+  img {
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+
+  margin-bottom: 3.5rem;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 1em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.style-guide {
+  img {
+    max-width: 100%;
+  }
+}
+
+.figma iframe {
+  max-width: 100%;
+}
+
+.noteboxes {
+  margin-top: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: #ffffff;
+  max-width: 100%;
+  border-radius: 1em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ending {
+  margin: 8rem;
+  text-align: center;
+}
+
+.sticky-nav {
+  display: none;
+  position: sticky;
+  float: right;
+  top: 2rem;
+  margin-top: 3rem;
+  right: 0;
+  padding: 20px;
+}
+
+.sticky-nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.sticky-nav li {
+  margin-bottom: 10px;
+}
+
+.sticky-nav a {
+  text-decoration: none;
+  color: var(--gray-100);
+}
+
+.sticky-nav a:active {
+  color: var(--blue-200);
+}
+
+.sticky-nav a:hover {
+  color: #007bff;
+}
+
+@media screen and (min-width: $screen-md) {
+  .sticky-nav {
+    display: block;
+  }
+  .process {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+
+    .process-box {
+      width: 12rem;
+      margin: 0 0 0 2rem;
+    }
+
+    .process-arrow {
+      width: 2rem;
+      display: flex;
+      fill: #8d7ce4; //not working
+    }
+  }
+  .app,
+  .video-final-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    max-width: 1080px;
+  }
+  .phone {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    max-width: 800px;
+  }
+
+  .mobile-view {
+    order: 0;
+    justify-self: center;
+  }
+  .info-to-mobile {
+    order: 1;
+    align-self: auto;
+  }
+  .video-text {
+    max-width: 500px;
+    margin-right: 3rem;
+  }
+  .videoside {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: $screen-lg) {
+  .phone {
+    margin: 6rem 3rem 6rem 3rem;
+  }
+}

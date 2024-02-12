@@ -1,1 +1,100 @@
+@import "../../shared/vars";
 @import "../ala";
+
+.introduction {
+  img {
+    margin: 2.5rem 3rem 2.5rem 0;
+    border-radius: 1em;
+    max-width: 100%;
+  }
+  .underline-green {
+    border-bottom: 2px solid var(--green-100);
+  }
+}
+
+body.dark-theme {
+  .underline-green {
+    border-bottom: 2px solid var(--green-200);
+  }
+}
+
+.hobbies {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.links {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  font-weight: 600;
+}
+
+.hobbies > div {
+  margin-top: 2rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+//medium
+@media screen and (min-width: $screen-md) {
+  .introduction {
+    text-align: center;
+    line-height: 1.6em;
+
+    & > div {
+      text-align: left;
+    }
+
+    img {
+      max-width: 360px;
+    }
+  }
+  .hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    max-width: 1080px;
+
+    & > div {
+      margin-top: 0;
+    }
+
+    h2:first-child {
+      grid-column: span 2;
+    }
+  }
+}
+
+//large
+@media screen and (min-width: $screen-lg) {
+  .introduction {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+
+    h2 {
+      margin-top: 3rem;
+    }
+
+    img {
+      margin-top: 3rem;
+      margin-right: 3rem;
+    }
+
+    & > div {
+      max-width: 40rem;
+    }
+  }
+}
+
+//extra large
+@media screen and (min-width: $screen-xlg) {
+  :root {
+    --page-margin: 32px auto;
+  }
+
+  body {
+    max-width: 1920px;
+  }
+}

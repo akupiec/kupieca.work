@@ -1,0 +1,53 @@
+@import "../vars";
+
+a.mail {
+  color: var(--blue-200);
+}
+
+footer {
+  h2 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  h2 a {
+    margin-left: 0.5em;
+  }
+
+  .wrapper {
+    .social {
+      margin-right: 1rem;
+    }
+
+    .credits {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+
+      a.back {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--fg);
+        margin-bottom: 3rem;
+
+        img {
+          transform: rotate(-90deg);
+          margin-right: 1rem;
+        }
+      }
+
+      .rights {
+        font-size: 1rem;
+        color: var(--gray-100);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-md) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
