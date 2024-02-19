@@ -64,6 +64,7 @@ export const KinoPodBaranami = (
               In my User Interface Design course, I had the opportunity to revamp a cultural website that, in our
               opinion, suffered from poor design. My choice was the renowned Cracow cinema,
               <a href="https://www.kinopodbaranami.pl/" target="_blank" class="links">
+                {" "}
                 Kino pod Baranami
               </a>
               , known for its cluttered and impossible-to-use website.
@@ -73,7 +74,13 @@ export const KinoPodBaranami = (
         <hr id="section2" />
       </section>
       <div className="noteboxes">
-        <h2>Professor's Feedback</h2>
+        <h5>Professor's Feedback</h5>
+        <a
+          href="https://www.linkedin.com/in/antonina-jasi%C5%84ska-520a6a131/?originalSubdomain=pl"
+          target="_blank"
+          className="links">
+          <h2>Antonina Jasińska</h2>
+        </a>
         <p>
           <i>
             Your presentation at the review was <span class="underline-green"> the best</span>, you managed to interest
@@ -239,13 +246,14 @@ export const KinoPodBaranami = (
             </a>
           </div>
           <div className="mobile-view">
-            <img src="/assets/conversations with dad obrazki/glagolica.webp" />
+            <img src="" alt="sorry for placeholder" />
           </div>
         </div>
       </div>
       <hr id="section8" />
       <div className="paragraph">
         <h5>Lo-Fi Wireframing</h5>
+        <img src="" alt="sorry for placeholder" />
         <hr id="section9" />
       </div>
       <div className="paragrah style-guide">

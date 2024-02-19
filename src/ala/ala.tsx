@@ -56,13 +56,16 @@ export const Ala = (
       <ProjectCard
         title="Moral Design Club"
         tags={["Brand Design", "Graphic Design", "Logo Design"]}
-        projectInfo="....">
+        projectInfo="Brand Concept for space for creatives to design solutions for societal and environmental issues">
         <a href="/ala/MoralDesignClub">
           <img src="/assets/MainPageImages/moralDesignClub.webp" alt="Moral Design Club Branding" />
         </a>
       </ProjectCard>
 
-      <ProjectCard title="Conversations with Dad Zine" tags={["Editorial Design", "Graphic Design"]} projectInfo="....">
+      <ProjectCard
+        title="Conversations with Dad Zine"
+        tags={["Editorial Design", "Graphic Design"]}
+        projectInfo="Deeply personal side project exploring the impact of secondary illiteracy and aphasia">
         <a href="/ala/ConversationWithDadProject">
           <img src="/assets/MainPageImages/TataZin.webp" alt="Conversations with Dad" />
         </a>

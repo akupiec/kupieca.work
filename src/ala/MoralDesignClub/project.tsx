@@ -54,9 +54,9 @@ export const MoralDesignClub = (
             <h5>About Project</h5>
             <p>
               In my Graphic Design university course, I addressed a long-standing wish of having
-              <strong>space for creatives</strong> to design solutions for societal and environmental issues. Within a
-              span of <strong>three weeks</strong>, I developed a<strong> comprehensive brand concept</strong>, complete
-              with a logo, patterns, and more.
+              <strong> space for creatives</strong> to design solutions for societal and environmental issues. Within a
+              span of <strong> three weeks</strong>, I developed a<strong> comprehensive brand concept</strong>,
+              complete with a logo, patterns, and more.
             </p>
           </div>
         </div>
