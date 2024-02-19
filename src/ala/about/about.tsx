@@ -98,7 +98,7 @@ export const AlaAbout = (
         </a>
       </p>
       <p>
-        <a href="https://drive.google.com/file/d/1vIRpNa1K-dJAXhjDsnm0AkKAv2He4unb/view" target="_blank">
+        <a href="https://drive.google.com/file/d/1vToec35rKokTknOxQ0EFVRG6l3m_vzdt/view?usp=sharing" target="_blank">
           💼 My really serious PDF
         </a>
       </p>

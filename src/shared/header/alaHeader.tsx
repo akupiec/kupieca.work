@@ -23,7 +23,7 @@ export function AlaHeader() {
         <a href="/ala/about">About me</a>
       </NavItem>
       <NavItem>
-        <a href="https://drive.google.com/file/d/1vIRpNa1K-dJAXhjDsnm0AkKAv2He4unb/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1vToec35rKokTknOxQ0EFVRG6l3m_vzdt/view?usp=sharing" target="_blank">
           Resume
         </a>
       </NavItem>
