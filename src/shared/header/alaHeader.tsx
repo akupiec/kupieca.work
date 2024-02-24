@@ -24,7 +24,7 @@ export function AlaHeader() {
       </NavItem>
       <NavItem>
         <a href="https://drive.google.com/file/d/1vToec35rKokTknOxQ0EFVRG6l3m_vzdt/view?usp=sharing" target="_blank">
-          Resume
+          Resume 🡕
         </a>
       </NavItem>
     </NavBar>
