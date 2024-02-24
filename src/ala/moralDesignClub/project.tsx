@@ -52,7 +52,8 @@ export const moralDesignClub = (
         <p>
           Through dynamic projects, graphic designers try to <strong>contribute to the process of changes</strong>
           taking place in society and in the industry itself. Using moderation, inspiration and involvement, they
-          <strong>encourage people</strong> to shape their opinions and stimulate them to <strong> take action.</strong>
+          <strong> encourage people</strong> to shape their opinions and stimulate them to{" "}
+          <strong> take action.</strong>
         </p>
         <h2>Core Values</h2>
         <div class="noteboxes">
@@ -69,7 +70,7 @@ export const moralDesignClub = (
             <strong>Collaboration</strong>
           </p>
           <p>
-            Moral Design Club thrives on collaboration, <strong>bringing together diverse perspectives </strong> to
+            Moral Design Club thrives on collaboration,<strong> bringing together diverse perspectives </strong>to
             create impactful and inclusive designs.
           </p>
         </div>
@@ -87,7 +88,7 @@ export const moralDesignClub = (
             <strong>Empowerment</strong>
           </p>
           <p>
-            Through our projects, we aim to <strong>empower individuals</strong> and communities to take an active role
+            Through our projects, we aim to<strong> empower individuals</strong> and communities to take an active role
             in shaping their future.
           </p>
         </div>
@@ -97,7 +98,7 @@ export const moralDesignClub = (
           </p>
           <p>
             Moral Design Club seeks to inspire not only aesthetically but also emotionally and intellectually. We want
-            to <strong>spark conversations and ignite passion </strong> for positive societal action.
+            to<strong> spark conversations and ignite passion </strong> for positive societal action.
           </p>
         </div>
       </section>
@@ -114,7 +115,7 @@ export const moralDesignClub = (
         <h2>Creating symbol of action and change.</h2>
         <p>
           The symbol seamlessly blends a <strong>hand</strong>, representing action and creation, with a
-          <strong>home</strong>, symbolizing a safe space and community. The <strong>eye</strong> within the design
+          <strong> home</strong>, symbolizing a safe space and community. The <strong>eye</strong> within the design
           signifies vision and insight, reflecting an ethos of not just doing but also understanding. Together, it
           encapsulates a narrative of <strong>taking action in a secure community</strong>, with a keen eye on
           perceiving ideas and addressing challenges.
@@ -159,8 +160,9 @@ export const moralDesignClub = (
           the initiative to <strong>design and distribute a series of impactful environmental stickers</strong>. These
           were strategically disseminated at notable events such as
           <a href="https://www.instagram.com/krakowzinefest" target="_blank">
-            Zine Fest in Krakow
-          </a>
+            {" "}
+            Zine Fest in Krakow 🡕
+          </a>{" "}
           and various other gatherings, including within my university community.
         </p>
         <p>
@@ -169,7 +171,7 @@ export const moralDesignClub = (
           stickers initiated numerous meaningful and inspiring discussions that
           <strong> left a lasting impression</strong>. Through these interactions, I witnessed a shared enthusiasm for
           sustainable practices within the creative community, leaving me genuinely
-          <strong>hopeful for the future of design </strong>.
+          <strong> hopeful for the future of design </strong>.
         </p>
         <div class="gallery">
           <img src="/assets/moralDesignClub/stickers1.webp" />
@@ -188,18 +190,18 @@ export const moralDesignClub = (
 
         <p>
           Throughout my engagement in this branding project, I've gained valuable insights that have
-          <strong>shaped my perspective on initiating positive change</strong>. While I acknowledge there are aspects of
-          the branding process I'd refine with my newfound knowledge, the overarching reflections emphasize my
+          <strong> shaped my perspective on initiating positive change</strong>. While I acknowledge there are aspects
+          of the branding process I'd refine with my newfound knowledge, the overarching reflections emphasize my
           forward-looking approach:
         </p>
 
         <div class="noteboxes">
           <h2>Silence breeds stagnation</h2>
           <p>
-            Zine Fest became a platform where I discovered a community teeming with passion—
-            <strong>a pivotal moment that propelled me forward</strong>. This experience signifies my proactive
+            Zine Fest became a platform where I discovered a community teeming with passion —
+            <strong> a pivotal moment that propelled me forward</strong>. This experience signifies my proactive
             commitment to sparking profound conversations about sustainability. I eagerly anticipate
-            <strong>channeling this fervor into every creative endeavor</strong>, contributing to a team that shares a
+            <strong> channeling this fervor into every creative endeavor</strong>, contributing to a team that shares a
             vision for transformative industry impact.
           </p>
         </div>
@@ -209,7 +211,7 @@ export const moralDesignClub = (
             Beyond conversations lies the imperative to turn words into tangible change. Identifying a group eager to
             engage in future pro-bono activities has fueled my ambition. To extend our impact,
             <strong> I envision creating a digital space</strong>, possibly on Instagram or Facebook, as a hub for
-            collective action—a testament to the power of unity.
+            collective action — a testament to the power of unity.
           </p>
         </div>
         <div class="noteboxes">
@@ -217,7 +219,7 @@ export const moralDesignClub = (
           <p>
             The project underscored that amidst complexity, <strong>collective effort prevails</strong>. The era of
             COVID-19 has illuminated opportunities for collaboration. While not every initiative boasts dedicated
-            branding, the importance of <strong>a shared goal remains paramount for focus and cohesion</strong>.
+            branding, the importance of <strong> a shared goal remains paramount for focus and cohesion</strong>.
           </p>
         </div>
       </section>

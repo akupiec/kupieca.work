@@ -11,7 +11,7 @@ export const AlaAbout = (
           I'm diving headfirst into the world of design with a<span className="underline-green"> burning passion </span>{" "}
           for making things awesome and sustainable. Right now, I'm in the final stretch of my
           <a href="https://iszd.uken.krakow.pl/kandydat/o-kierunku/" className="links">
-            master's degree
+            master's degree 🡕
           </a>
           , not just learning the ropes but creating designs that really click with users and help the planet.
         </p>
@@ -19,7 +19,7 @@ export const AlaAbout = (
         <p>
           I had this amazing moment at the
           <a href="https://kms.org.pl/akademicki-maraton-innowacji/" className="links">
-            KMS hackathon
+            KMS hackathon 🡕
           </a>
           where my team won by coming up with a great idea, designing it, and nailing the presentation. Now, being
           invited to an <span className="underline-green">accelerator program </span> is like the high point in my
@@ -35,7 +35,7 @@ export const AlaAbout = (
         <p>
           While all this is happening, I'm honing my skills through
           <a href="https://www.dareit.io/mentoring" className="links">
-            DareIT mentorship
+            DareIT mentorship 🡕
           </a>
           program, where I was one of the 120 mentees picked from almost 1,000 applicants!
         </p>
@@ -91,12 +91,12 @@ export const AlaAbout = (
         <a
           href="https://flannel-oak-92a.notion.site/31fc33a62b3b4498b18d521ed8b0dd31?v=f69416363b454e1484ca800e30d35163"
           target="_blank">
-          🎁 Check out some things I prepared for you!
+          🎁 Check out some things I prepared for you! 🡕
         </a>
       </p>
       <p>
         <a href="https://drive.google.com/file/d/1vToec35rKokTknOxQ0EFVRG6l3m_vzdt/view?usp=sharing" target="_blank">
-          💼 My really serious PDF
+          💼 My really serious PDF 🡕
         </a>
       </p>
     </div>
