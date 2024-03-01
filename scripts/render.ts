@@ -7,10 +7,10 @@ import { AlaAbout } from "../src/ala/about/about";
 import * as path from "path";
 import { IndexTemplate } from "./indexTemplate";
 import { HealthQuestProject } from "../src/ala/healthQuestProject/project";
-import { ConversationWithDad } from "../src/ala/ConversationWithDadProject/project";
-import { UXWritingFlashcards } from "../src/ala/UXWritingFlashcards/project";
-import { MoralDesignClub } from "../src/ala/MoralDesignClub/project";
-import { KinoPodBaranami } from "../src/ala/KinoPodBaranami/project";
+import { ConversationWithDad } from "../src/ala/conversationWithDadProject/project";
+import { uxWritingFlashcards } from "../src/ala/uxWritingFlashcards/project";
+import { moralDesignClub } from "../src/ala/moralDesignClub/project";
+import { kinoPodBaranami } from "../src/ala/kinoPodBaranami/project";
 
 const configs = [
   {
@@ -40,27 +40,27 @@ const configs = [
   },
 
   {
-    out: "_site/ala/ConversationWithDadProject/index.html",
-    css: ["/common.css", "/ala/ConversationWithDadProject/project.css"],
+    out: "_site/ala/conversationWithDadProject/index.html",
+    css: ["/common.css", "/ala/conversationWithDadProject/project.css"],
     body: render(ConversationWithDad),
   },
 
   {
-    out: "_site/ala/UXWritingFlashcards/index.html",
-    css: ["/common.css", "/ala/UXWritingFlashcards/project.css"],
-    body: render(UXWritingFlashcards),
+    out: "_site/ala/uxWritingFlashcards/index.html",
+    css: ["/common.css", "/ala/uxWritingFlashcards/project.css"],
+    body: render(uxWritingFlashcards),
   },
 
   {
-    out: "_site/ala/MoralDesignClub/index.html",
-    css: ["/common.css", "/ala/MoralDesignClub/project.css"],
-    body: render(MoralDesignClub),
+    out: "_site/ala/moralDesignClub/index.html",
+    css: ["/common.css", "/ala/moralDesignClub/project.css"],
+    body: render(moralDesignClub),
   },
 
   {
-    out: "_site/ala/KinoPodBaranami/index.html",
-    css: ["/common.css", "/ala/KinoPodBaranami/project.css"],
-    body: render(KinoPodBaranami),
+    out: "_site/ala/kinoPodBaranami/index.html",
+    css: ["/common.css", "/ala/kinoPodBaranami/project.css"],
+    body: render(kinoPodBaranami),
   },
 ];
 

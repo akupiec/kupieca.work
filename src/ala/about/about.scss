@@ -7,15 +7,6 @@
     border-radius: 1em;
     max-width: 100%;
   }
-  .underline-green {
-    border-bottom: 2px solid var(--green-100);
-  }
-}
-
-body.dark-theme {
-  .underline-green {
-    border-bottom: 2px solid var(--green-200);
-  }
 }
 
 .hobbies {

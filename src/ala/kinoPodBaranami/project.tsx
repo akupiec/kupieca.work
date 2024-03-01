@@ -1,54 +1,32 @@
 import { AlaHeader } from "../../shared/header/alaHeader";
 import { Footer } from "../../shared/footer/footer";
+import { Banner } from "../../shared/project/banner/baner";
+import { SideNav } from "../../shared/project/sideNav/sideNav";
+import { Ending } from "../../shared/project/ending/ending";
 
-export const KinoPodBaranami = (
+export const kinoPodBaranami = (
   <>
     <AlaHeader />
-    <div class="banner">
-      <img src="/assets/CinemaRevamp/banner.webp" alt="KinoPodBaranami Banner" id={"banner"} />
-    </div>
-    <nav className="sticky-nav">
-      <ul>
-        <li>
-          <a href="#section1">Overview</a>
-        </li>
-        <li>
-          <a href="#section2">Feedback</a>
-        </li>
-        <li>
-          <a href="#section3">Problem</a>
-        </li>
-        <li>
-          <a href="#section4">Solution</a>
-        </li>
-        <li>
-          <a href="#section5">Process</a>
-        </li>
-        <li>
-          <a href="#section6">Research</a>
-        </li>
-        <li>
-          <a href="#section7">User Interviews</a>
-        </li>
-        <li>
-          <a href="#section8">Lo-Fi Wireframes</a>
-        </li>
-        <li>
-          <a href="#section9">Style Guide</a>
-        </li>
-        <li>
-          <a href="#section10">Final Design</a>
-        </li>
-        <li>
-          <a href="#section11">Reflections</a>
-        </li>
-      </ul>
-    </nav>
+    <Banner src="/assets/CinemaRevamp/banner.webp" />
+    <SideNav
+      links={[
+        { url: "#section1", title: "Overview" },
+        { url: "#section2", title: "Feedback" },
+        { url: "#section3", title: "Problem" },
+        { url: "#section4", title: "Solution" },
+        { url: "#section5", title: "Process" },
+        { url: "#section6", title: "Research" },
+        { url: "#section7", title: "User Interviews" },
+        { url: "#section8", title: "Lo-Fi Wireframes" },
+        { url: "#section9", title: "Style Guide" },
+        { url: "#section10", title: "Final Design" },
+        { url: "#section11", title: "Reflections" },
+      ]}></SideNav>
 
-    <div className="content">
+    <div class="content">
       <section id="section1">
         <h1>Cinema Website Revamp</h1>
-        <div className="paragraph app">
+        <div class="paragraph app">
           <div>
             <h5>Tools</h5>
             <ul class="tools-list">
@@ -63,7 +41,7 @@ export const KinoPodBaranami = (
             <p>
               In my User Interface Design course, I had the opportunity to revamp a cultural website that, in our
               opinion, suffered from poor design. My choice was the renowned Cracow cinema,
-              <a href="https://www.kinopodbaranami.pl/" target="_blank" class="links">
+              <a href="https://www.kinoPodBaranami.pl/" target="_blank" class="links">
                 {" "}
                 Kino pod Baranami
               </a>
@@ -71,14 +49,14 @@ export const KinoPodBaranami = (
             </p>
           </div>
         </div>
-        <hr id="section2" />
       </section>
-      <div className="noteboxes">
+      <hr />
+      <section id="section2" class="noteboxes">
         <h5>Professor's Feedback</h5>
         <a
           href="https://www.linkedin.com/in/antonina-jasi%C5%84ska-520a6a131/?originalSubdomain=pl"
           target="_blank"
-          className="links">
+          class="links">
           <h2>Antonina Jasińska</h2>
         </a>
         <p>
@@ -93,9 +71,9 @@ export const KinoPodBaranami = (
             <span class="underline-green"> the design is fresh, clean and very legible/functional.</span>
           </i>
         </p>
-      </div>
-      <hr id="section3" />
-      <div className="paragraph">
+      </section>
+      <hr />
+      <section id="section3">
         <h5>Problem</h5>
         <h2>Potential customers struggle to find events and film viewings at art-house cinema</h2>
         <p>
@@ -106,26 +84,26 @@ export const KinoPodBaranami = (
           frustrated and disheartened, navigating a cumbersome website that
           <strong> leads them to abandon their purchases</strong> before reaching completion.
         </p>
-        <hr id="section4" />
-      </div>
-      <div className="paragraph">
+      </section>
+      <hr />
+      <section id="section4">
         <h5>Solution</h5>
         <h2>Crafting clear, easy to read and popular design by taking inspiration from the e-commerce websites</h2>
 
-        <div className="phone">
-          <div className="info-to-mobile">
+        <div class="phone">
+          <div class="info-to-mobile">
             <h2>Enhanced navigation with a clear hierarchy</h2>
             <p>👉 Reorganizing previously chaotic and duplicated content into well-defined headers and footers</p>
             <p>
               👉 Concealing less critical information in the footer to streamline both the website and user experience
             </p>
           </div>
-          <div className="mobile-view ">
+          <div class="mobile-view ">
             <img src="/assets/CinemaRevamp/Revamp5.webp" />
           </div>
         </div>
 
-        <div className="phone">
+        <div class="phone">
           <div>
             <h2>Main Page makeover</h2>
             <p>
@@ -138,13 +116,13 @@ export const KinoPodBaranami = (
               about each video.
             </p>
           </div>
-          <div className="mobile-view">
+          <div class="mobile-view">
             <img src="/assets/CinemaRevamp/Revamp1.webp" />
           </div>
         </div>
 
-        <div className="phone">
-          <div className="info-to-mobile">
+        <div class="phone">
+          <div class="info-to-mobile">
             <h2>Exclusive benefits for loyal patrons</h2>
             <p>👉 Effortless management of discounts and club memberships </p>
             <p>👉 Personalized movie suggestions tailored just for patron</p>
@@ -154,12 +132,12 @@ export const KinoPodBaranami = (
             </p>
             <p>👉 Easy retrieval of purchased tickets for hassle-free cinema experiences</p>
           </div>
-          <div className="mobile-view ">
+          <div class="mobile-view ">
             <img src="/assets/CinemaRevamp/Revamp3.webp" />
           </div>
         </div>
 
-        <div className="phone">
+        <div class="phone">
           <div>
             <h2>Seamless ticketing experience</h2>
             <p>👉 A dedicated ticket purchasing page seamlessly integrated with the overall website aesthetics</p>
@@ -169,14 +147,13 @@ export const KinoPodBaranami = (
               cinema experience
             </p>
           </div>
-          <div className="mobile-view">
+          <div class="mobile-view">
             <img src="/assets/CinemaRevamp/tickets.webp" />
           </div>
         </div>
-        <hr id="section5" />
-      </div>
-
-      <div>
+      </section>
+      <hr />
+      <section id="section5">
         <h5>Process</h5>
         <p>
           The process involved <strong> extensive research</strong> about competition, patrons preferences, history of
@@ -184,30 +161,30 @@ export const KinoPodBaranami = (
           <strong> many, many iterations</strong>. The process was not linear - it involved lots of going back and forth
           towards the goal.
         </p>
-        <div className="paragraph process">
-          <div className="process-box">
+        <div class="paragraph process">
+          <div class="process-box">
             <h2>Research</h2>
           </div>
-          <img className="process-arrow" src="/assets/ArrowProcess.svg" />
-          <div className="process-box">
+          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <div class="process-box">
             <h2>Wireframing</h2>
           </div>
-          <img className="process-arrow" src="/assets/ArrowProcess.svg" />
-          <div className="process-box">
+          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <div class="process-box">
             <h2>Prototype</h2>
           </div>
-          <img className="process-arrow" src="/assets/ArrowProcess.svg" />
-          <div className="process-box">
+          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <div class="process-box">
             <h2>Testing</h2>
           </div>
-          <img className="process-arrow" src="/assets/ArrowProcess.svg" />
-          <div className="process-box">
+          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <div class="process-box">
             <h2>Final Design</h2>
           </div>
         </div>
-      </div>
-      <hr id="section6" />
-      <div className="paragraph">
+      </section>
+      <hr />
+      <section id="section6">
         <h5>Research</h5>
         <h2>Website Analysis</h2>
         <p>👉 Difficult to understand, chaotic, three-level navigation with enormous amount of hidden sections</p>
@@ -223,13 +200,13 @@ export const KinoPodBaranami = (
           👉 The cinema is proud of the long history of its discussion club and cordially invites you to participate in
           activities, however, it does not offer a place for a club member or permanent patron on the website
         </p>
-        <div className="patterns">
+        <div class="patterns">
           <img src="/assets/CinemaRevamp/KPB1.webp" />
           <img src="/assets/CinemaRevamp/KPB2.webp" />
           <img src="/assets/CinemaRevamp/KPB3.webp" />
         </div>
         <hr id="section7" />
-        <div className="phone">
+        <div class="phone">
           <div>
             <h2>User Interviews & Testing</h2>
             <p>
@@ -245,25 +222,24 @@ export const KinoPodBaranami = (
               <p>👉 The Interview Script and Results 👈</p>
             </a>
           </div>
-          <div className="mobile-view">
+          <div class="mobile-view">
             <img src="" alt="sorry for placeholder" />
           </div>
         </div>
-      </div>
-      <hr id="section8" />
-      <div className="paragraph">
+      </section>
+      <hr />
+      <section id="section8">
         <h5>Lo-Fi Wireframing</h5>
         <img src="" alt="sorry for placeholder" />
-        <hr id="section9" />
-      </div>
-      <div className="paragrah style-guide">
+      </section>
+      <hr />
+      <section id="section9" class="style-guide">
         <h5>Style Guide</h5>
         <img src="/assets/CinemaRevamp/StyleGuide.webp" />
         <img src="/assets/CinemaRevamp/StyleGuide2.webp" />
-        <hr id="section10" />
-      </div>
-
-      <div className="paragraph">
+      </section>
+      <hr />
+      <section id="section10">
         <h5>Final Design & Evaluation</h5>
         <h2>
           “I love it! It would make my life so much better! You should talk to the Kino pod Baranami about this
@@ -276,17 +252,16 @@ export const KinoPodBaranami = (
         <a href="https://www.figma.com/community/file/1247159387747902249/cinema-redesign">
           <h2> 👉 You can check my Figma File here 👈</h2>
         </a>
-      </div>
-      <video controls>
-        <source src="/assets/CinemaRevamp/Free Macbook Pro On Table Mockup-1.m4v" type="video/mp4" />
-      </video>
-
-      <hr id="section11" />
-      <div className="paragraph">
+        <video controls>
+          <source src="/assets/CinemaRevamp/Free Macbook Pro On Table Mockup-1.m4v" type="video/mp4" />
+        </video>
+      </section>
+      <hr />
+      <section id="section11">
         <h5>Reflections</h5>
         <h2>My main three insights:</h2>
 
-        <div className="noteboxes">
+        <div class="noteboxes">
           <h2>Transformation through user-centric design</h2>
           <p>
             The redesign of Kino pod Baranami's website prioritized user-centric design, alleviating frustrations for
@@ -294,7 +269,7 @@ export const KinoPodBaranami = (
             transformative shift beyond aesthetics, catering to the diverse needs of the cinema's audience.
           </p>
         </div>
-        <div className="noteboxes">
+        <div class="noteboxes">
           <h2>Seamless integration of functionality and aesthetics</h2>
           <p>
             Success is found in the seamless integration of functionality and aesthetics, where the revamped main page
@@ -302,7 +277,7 @@ export const KinoPodBaranami = (
             purchasing to exclusive benefits, contributes to a visually pleasing and highly functional website.
           </p>
         </div>
-        <div className="noteboxes">
+        <div class="noteboxes">
           <h2>User Feedback as catalyst for change</h2>
           <p>
             User insights, gleaned from interviews and testing, spurred meaningful improvements, addressing patron
@@ -310,13 +285,9 @@ export const KinoPodBaranami = (
             project's potential to create a more engaging and user-friendly online environment for Kino pod Baranami.
           </p>
         </div>
-      </div>
-      <div className="ending">
-        <a href="/ala">
-          <h2> 👉 Check out my other projects 👈</h2>
-        </a>
-      </div>
+      </section>
     </div>
-    <Footer />
+    <Ending />
+    <Footer topId="#section1" />
   </>
 );

@@ -1,0 +1,17 @@
+@import "../healthQuestProject/project";
+
+@media screen and (min-width: $screen-md) {
+  .photogallery {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    max-width: 100%;
+    margin: 2rem 0;
+
+    img {
+      border-radius: 1em;
+    }
+  }
+}

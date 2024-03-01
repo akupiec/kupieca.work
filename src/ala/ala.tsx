@@ -30,8 +30,8 @@ export const Ala = (
         title="Cinema Website Revamp"
         tags={["UX/UI", "Responsive Web Design"]}
         projectInfo="Revamping the cinema website for better navigation, a minimalist landing page, and a dedicated 'My Page' for loyal customers.">
-        <a href="/ala/KinoPodBaranami">
-          <img src="/assets/MainPageImages/KinoPodBaranami.webp" alt="KinoPodBaranami" />
+        <a href="/ala/kinoPodBaranami">
+          <img src="/assets/MainPageImages/kinoPodBaranami.webp" alt="kinoPodBaranami" />
         </a>
       </ProjectCard>
 
@@ -48,7 +48,7 @@ export const Ala = (
         title="UX Writing Flashcards (PL)"
         tags={["UX Writing", "Graphic Design"]}
         projectInfo="Series of flash cards explaining UX writing, introducing the concept based on principles oriented towards reader usefulness.">
-        <a href="/ala/UXWritingFlashcards">
+        <a href="/ala/uxWritingFlashcards">
           <img src="/assets/MainPageImages/kartyUXWritting.webp" alt="UX Writing Flashcards" />
         </a>
       </ProjectCard>
@@ -57,7 +57,7 @@ export const Ala = (
         title="Moral Design Club"
         tags={["Brand Design", "Graphic Design", "Logo Design"]}
         projectInfo="Brand Concept for space for creatives to design solutions for societal and environmental issues">
-        <a href="/ala/MoralDesignClub">
+        <a href="/ala/moralDesignClub">
           <img src="/assets/MainPageImages/moralDesignClub.webp" alt="Moral Design Club Branding" />
         </a>
       </ProjectCard>
@@ -66,7 +66,7 @@ export const Ala = (
         title="Conversations with Dad Zine"
         tags={["Editorial Design", "Graphic Design"]}
         projectInfo="Deeply personal side project exploring the impact of secondary illiteracy and aphasia">
-        <a href="/ala/ConversationWithDadProject">
+        <a href="/ala/conversationWithDadProject">
           <img src="/assets/MainPageImages/TataZin.webp" alt="Conversations with Dad" />
         </a>
       </ProjectCard>

@@ -3,7 +3,7 @@
   "scripts": {
     "prepare": "husky",
     "test": "prettier -c src/ scripts/",
-    "fix": "prettier -w src/ scripts",
+    "fix": "prettier -w src/ scripts/",
     "start": "concurrently pnpm:start:dev pnpm:start:server pnpm:start:css",
     "start:dev": "tsx --watch --tsconfig src/tsconfig.json scripts/render.ts",
     "start:server": "live-server _site/",
@@ -20,6 +20,7 @@
     "esbuild": "^0.20.0",
     "esbuild-sass-plugin": "^3.0.0",
     "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
     "live-server": "^1.2.2",
     "prettier": "^3.2.5",
     "tsx": "^4.7.1"
@@ -32,5 +33,10 @@
   "packageManager": "pnpm@8.11.0",
   "engines": {
     "node": ">=18"
+  },
+  "lint-staged": {
+    "*.{ts,scss,html,css,mjs}": [
+      "prettier --write"
+    ]
   }
 }

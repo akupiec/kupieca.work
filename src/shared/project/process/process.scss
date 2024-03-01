@@ -1,0 +1,26 @@
+.process-arrow {
+  display: none;
+}
+
+@media screen and (min-width: $screen-md) {
+  .process {
+    display: flex;
+    width: 100%;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .process-box {
+      flex: 3;
+    }
+
+    .process-arrow {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 2rem;
+      display: flex;
+      fill: #8d7ce4; //not working
+    }
+  }
+}

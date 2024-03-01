@@ -1,45 +1,29 @@
 import { AlaHeader } from "../../shared/header/alaHeader";
 import { Footer } from "../../shared/footer/footer";
+import { Banner } from "../../shared/project/banner/baner";
+import { SideNav } from "../../shared/project/sideNav/sideNav";
+import { Ending } from "../../shared/project/ending/ending";
 
-export const MoralDesignClub = (
+export const moralDesignClub = (
   <>
     <AlaHeader />
-    <div class="banner">
-      <img src="/assets/MoralDesignClub/banner.webp" alt="CafeFrontMockup" id={"banner"} />
-    </div>
-    <nav class="sticky-nav">
-      <ul>
-        <li>
-          <a href="#section1">Overview</a>
-        </li>
-        <li>
-          <a href="#section2">Brand Concept</a>
-        </li>
-        <li>
-          <a href="#section3">Mindmap</a>
-        </li>
-        <li>
-          <a href="#section4">Ideation</a>
-        </li>
-        <li>
-          <a href="#section5">Logo Design</a>
-        </li>
-        <li>
-          <a href="#section6">Patterns & Usage Exaples</a>
-        </li>
-        <li>
-          <a href="#section7">Stickers & Convesrations</a>
-        </li>
-        <li>
-          <a href="#section9">Reflections</a>
-        </li>
-      </ul>
-    </nav>
+    <Banner src="/assets/moralDesignClub/banner.webp" />
+    <SideNav
+      links={[
+        { url: "#section1", title: "Overview" },
+        { url: "#section2", title: "Brand Concept" },
+        { url: "#section3", title: "Mindmap" },
+        { url: "#section4", title: "Ideation" },
+        { url: "#section5", title: "Logo Design" },
+        { url: "#section6", title: "Patterns & Usage Exaples" },
+        { url: "#section7", title: "Stickers & Convesrations" },
+        { url: "#section9", title: "Reflections" },
+      ]}></SideNav>
 
     <div class="content">
       <section id="section1">
         <h1>Moral Design Club - Brand Concept</h1>
-        <div class="paragraph app">
+        <div class="app">
           <div>
             <h5>Tools</h5>
             <ul class="tools-list">
@@ -60,9 +44,9 @@ export const MoralDesignClub = (
             </p>
           </div>
         </div>
-        <hr id="section2" />
       </section>
-      <div class="paragraph">
+      <hr />
+      <section id="section2">
         <h5>Brand Concept</h5>
         <h2>Creating the identification of a design collective involved in societal action.</h2>
         <p>
@@ -70,8 +54,6 @@ export const MoralDesignClub = (
           taking place in society and in the industry itself. Using moderation, inspiration and involvement, they
           <strong>encourage people</strong> to shape their opinions and stimulate them to <strong> take action.</strong>
         </p>
-      </div>
-      <div class="paragraph">
         <h2>Core Values</h2>
         <div class="noteboxes">
           <p>
@@ -118,17 +100,16 @@ export const MoralDesignClub = (
             to <strong>spark conversations and ignite passion </strong> for positive societal action.
           </p>
         </div>
-      </div>
-      <hr id="section3" />
-
-      <div class="paragraph">
+      </section>
+      <hr />
+      <section id="section3">
         <h5>Mindmap</h5>
         <h2>Exploring symbolism connected to ethical design collectives.</h2>
 
-        <img src="/assets/MoralDesignClub/mindmap.webp" />
-      </div>
-      <hr id="section4" />
-      <div class="paragraph">
+        <img src="/assets/moralDesignClub/mindmap.webp" />
+      </section>
+      <hr />
+      <section id="section4">
         <h5>Ideation</h5>
         <h2>Creating symbol of action and change.</h2>
         <p>
@@ -138,47 +119,46 @@ export const MoralDesignClub = (
           encapsulates a narrative of <strong>taking action in a secure community</strong>, with a keen eye on
           perceiving ideas and addressing challenges.
         </p>
-        <img src="/assets/MoralDesignClub/szkicownik.webp" />
-      </div>
-
-      <hr id="section5" />
-      <div class="paragraph">
+        <img src="/assets/moralDesignClub/szkicownik.webp" />
+      </section>
+      <hr />
+      <section id="section5">
         <h5>Logo Design</h5>
         <div class="phone">
-          <img src="/assets/MoralDesignClub/logosiatka1.webp" />
-          <img src="/assets/MoralDesignClub/logobasic.webp" />
+          <img src="/assets/moralDesignClub/logosiatka1.webp" />
+          <img src="/assets/moralDesignClub/logobasic.webp" />
         </div>
-        <img src="/assets/MoralDesignClub/alternative3.webp" />
-        <img class="img phone" src="/assets/MoralDesignClub/alternative2.webp" />
-        <hr id="section6" />
-      </div>
-      <div class="paragraph">
+        <img src="/assets/moralDesignClub/alternative3.webp" />
+        <img class="img phone" src="/assets/moralDesignClub/alternative2.webp" />
+      </section>
+      <hr />
+      <section id="section6">
         <h5>Patterns&Usage</h5>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/pattern1.webp" />
-          <img src="/assets/MoralDesignClub/pattern2.webp" />
-          <img src="/assets/MoralDesignClub/pattern3.webp" />
+          <img src="/assets/moralDesignClub/pattern1.webp" />
+          <img src="/assets/moralDesignClub/pattern2.webp" />
+          <img src="/assets/moralDesignClub/pattern3.webp" />
         </div>
         <div class="phone">
-          <img src="/assets/MoralDesignClub/notatnik1.webp" />
-          <img src="/assets/MoralDesignClub/notatnik2.webp" />
+          <img src="/assets/moralDesignClub/notatnik1.webp" />
+          <img src="/assets/moralDesignClub/notatnik2.webp" />
         </div>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/przypinka.webp" />
-          <img src="/assets/MoralDesignClub/torba.webp" />
-          <img src="/assets/MoralDesignClub/wizytówki.webp" />
+          <img src="/assets/moralDesignClub/przypinka.webp" />
+          <img src="/assets/moralDesignClub/torba.webp" />
+          <img src="/assets/moralDesignClub/wizytówki.webp" />
         </div>
-        <img src="/assets/MoralDesignClub/posters.webp" />
-        <hr id="section7" />
-      </div>
-      <div class="paragraph">
+        <img src="/assets/moralDesignClub/posters.webp" />
+      </section>
+      <hr />
+      <section id="section7">
         <h5>Stickers & Conversations</h5>
         <h2>How I sparked conversations about sustainable design </h2>
         <p>
           In my commitment to promoting the values of the club and advocating for sustainable design practices, I took
           the initiative to <strong>design and distribute a series of impactful environmental stickers</strong>. These
           were strategically disseminated at notable events such as
-          <a href="https://www.instagram.com/krakowzinefest" target="_blank" class="links">
+          <a href="https://www.instagram.com/krakowzinefest" target="_blank">
             Zine Fest in Krakow
           </a>
           and various other gatherings, including within my university community.
@@ -192,17 +172,17 @@ export const MoralDesignClub = (
           <strong>hopeful for the future of design </strong>.
         </p>
         <div class="phone">
-          <img src="/assets/MoralDesignClub/stickers1.webp" />
-          <img src="/assets/MoralDesignClub/stickers2.webp" />
+          <img src="/assets/moralDesignClub/stickers1.webp" />
+          <img src="/assets/moralDesignClub/stickers2.webp" />
         </div>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/ppl1.webp" />
-          <img src="/assets/MoralDesignClub/ppl3.webp" />
-          <img src="/assets/MoralDesignClub/ppl2.webp" />
+          <img src="/assets/moralDesignClub/ppl1.webp" />
+          <img src="/assets/moralDesignClub/ppl3.webp" />
+          <img src="/assets/moralDesignClub/ppl2.webp" />
         </div>
-      </div>
-      <hr id="section9" />
-      <div class="paragraph">
+      </section>
+      <hr />
+      <section id="section9">
         <h5>Reflections</h5>
         <h2>Looking towards the future </h2>
 
@@ -240,13 +220,9 @@ export const MoralDesignClub = (
             branding, the importance of <strong>a shared goal remains paramount for focus and cohesion</strong>.
           </p>
         </div>
-      </div>
+      </section>
     </div>
-    <div class="ending">
-      <a href="/ala">
-        <h2> 👉 Check out my other projects 👈</h2>
-      </a>
-    </div>
-    <Footer />
+    <Ending />
+    <Footer topId="#section1" />
   </>
 );
