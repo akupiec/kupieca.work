@@ -24,7 +24,7 @@ export const ConversationWithDad = (
     <div class="content">
       <section id="section1">
         <h1>Conversation With Dad Zine</h1>
-        <div class="paragraph app">
+        <div class="app">
           <div>
             <h5>Tools</h5>
             <ul class="tools-list">
@@ -68,8 +68,8 @@ export const ConversationWithDad = (
           By addressing the lack of familiarity with aphasia, the project aims to spark conversations and promote a more
           compassionate approach towards those grappling with reading difficulties.
         </p>
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Substantive articles that give basic understanding intermingled by emotional hand-lettering</h2>
             <p>
               Merging informative articles with emotional hand-lettering, this section offers a
@@ -79,12 +79,12 @@ export const ConversationWithDad = (
               a personalized touch to enhance the reader's connection to the material.
             </p>
           </div>
-          <div class="mobile-view ">
+          <div class="view left">
             <img src="/assets/conversations with dad obrazki/1.webp" />
           </div>
         </div>
 
-        <div class="phone">
+        <div class="desktop">
           <div>
             <h2>Metaphor that brings people closer</h2>
             <p>
@@ -95,13 +95,13 @@ export const ConversationWithDad = (
               Dobro (good), P = Pokój (peace), S = Słowo (word).
             </p>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="/assets/conversations with dad obrazki/2.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Encoded personal experiences</h2>
             <p>
               In the zine, I extended the metaphor by encoding personal experiences. Messages written in Glagolica,
@@ -112,7 +112,7 @@ export const ConversationWithDad = (
               <strong>our ability to adapt and connect </strong> with those affected by aphasia.
             </p>
           </div>
-          <div class="mobile-view ">
+          <div class="view left">
             <img src="/assets/conversations with dad obrazki/3.webp" />
           </div>
         </div>
@@ -158,8 +158,8 @@ export const ConversationWithDad = (
           condition is often mistaken for many other situations. Feelings of social isolation with resulting emotional
           effects are common to individuals with aphasia.
         </p>
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h5>Interview with Dad</h5>
             <h2>The embodiment of aphasia</h2>
             <p>
@@ -171,11 +171,11 @@ export const ConversationWithDad = (
               with the profound experiences shared.
             </p>
           </div>
-          <div>
+          <div class="viev left">
             <img src="/assets/conversations with dad obrazki/dad.webp" />
           </div>
         </div>
-        <div class="phone">
+        <div class="desktop">
           <div>
             <h5>Web & Old tomes Research</h5>
             <h2>Lost language - Głagolica</h2>
@@ -192,7 +192,7 @@ export const ConversationWithDad = (
               region speaks that the hexes shouldn’t have any of the “good” letters in them for the worst outcome ;)
             </p>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="/assets/conversations with dad obrazki/glagolica.webp" />
           </div>
         </div>
@@ -207,29 +207,17 @@ export const ConversationWithDad = (
       <section id="section7">
         <h5>Final Design</h5>
         <h2>Perfect combination of aesthetics and encoded messages</h2>
-        <video controls>
+        <video controls class="full-video">
           <source src="/assets/conversations with dad obrazki/Finaldesignmovie-1.m4v" type="video/mp4" />
         </video>
 
-        <div class="photogallery">
-          <div>
-            <img src="\assets\conversations with dad obrazki\gallery1.webp" />
-          </div>
-          <div>
-            <img src="/assets/conversations with dad obrazki/gallery3.webp" />
-          </div>
-          <div>
-            <img src="/assets/conversations with dad obrazki/gallery2.webp" />
-          </div>
-          <div>
-            <img src="\assets\conversations with dad obrazki\gallery4.webp" />
-          </div>
-          <div>
-            <img src="/assets/conversations with dad obrazki/gallery6.webp" />
-          </div>
-          <div>
-            <img src="/assets/conversations with dad obrazki/gallery5.webp" />
-          </div>
+        <div class="patterns">
+          <img src="\assets\conversations with dad obrazki\gallery1.webp" />
+          <img src="/assets/conversations with dad obrazki/gallery3.webp" />
+          <img src="/assets/conversations with dad obrazki/gallery2.webp" />
+          <img src="\assets\conversations with dad obrazki\gallery4.webp" />
+          <img src="/assets/conversations with dad obrazki/gallery6.webp" />
+          <img src="/assets/conversations with dad obrazki/gallery5.webp" />
         </div>
       </section>
       <hr />

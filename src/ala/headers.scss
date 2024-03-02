@@ -1,0 +1,34 @@
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 1.3rem;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h2.title-info {
+  font-weight: 500;
+  line-height: 164%;
+  max-width: 800px;
+  margin-bottom: 132px;
+}
+
+h1 .highlight {
+  color: var(--blue-200);
+}
+
+h2 .underline-green {
+  border-bottom: 4px solid var(--green-100);
+}
+
+body.dark-theme {
+  h1 .highlight {
+    color: var(--green-100);
+  }
+
+  h2 .underline-green {
+    border-bottom: 4px solid var(--green-200);
+  }
+}

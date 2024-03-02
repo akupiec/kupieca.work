@@ -1,6 +1,8 @@
 @import "../shared/header/header";
 @import "../shared/footer/footer";
 @import "../shared/vars";
+@import "./headers";
+@import "./content";
 
 :root {
   --page-margin: 32px;
@@ -10,62 +12,6 @@
 body {
   margin: var(--page-margin);
   font-size: var(--font-size);
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 4rem;
-  margin-bottom: 1.3rem;
-}
-
-h2 {
-  font-weight: 600;
-}
-
-h2.title-info {
-  font-weight: 500;
-  line-height: 164%;
-  max-width: 800px;
-  margin-bottom: 132px;
-}
-
-h1 .highlight {
-  color: var(--blue-200);
-}
-
-h2 .underline-green {
-  border-bottom: 4px solid var(--green-100);
-}
-
-a {
-  color: var(--blue-200);
-  text-decoration: none;
-
-  &:hover {
-    opacity: 0.7;
-  }
-}
-
-.underline-green {
-  border-bottom: 2px solid var(--green-100);
-}
-
-body.dark-theme {
-  h1 .highlight {
-    color: var(--green-100);
-  }
-
-  h2 .underline-green {
-    border-bottom: 4px solid var(--green-200);
-  }
-
-  a {
-    color: var(--green-100);
-  }
-
-  .underline-green {
-    border-bottom: 2px solid var(--green-200);
-  }
 }
 
 .project-section {
@@ -99,14 +45,6 @@ body.dark-theme {
   }
 }
 
-p {
-  line-height: 1.6rem;
-
-  a {
-    padding: 0 0.4em;
-  }
-}
-
 //medium
 @media screen and (min-width: $screen-md) {
   :root {
@@ -134,6 +72,6 @@ p {
   }
 
   body {
-    max-width: 1920px;
+    max-width: 1600px;
   }
 }

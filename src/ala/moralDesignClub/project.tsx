@@ -124,12 +124,12 @@ export const moralDesignClub = (
       <hr />
       <section id="section5">
         <h5>Logo Design</h5>
-        <div class="phone">
+        <div class="gallery">
           <img src="/assets/moralDesignClub/logosiatka1.webp" />
           <img src="/assets/moralDesignClub/logobasic.webp" />
         </div>
         <img src="/assets/moralDesignClub/alternative3.webp" />
-        <img class="img phone" src="/assets/moralDesignClub/alternative2.webp" />
+        <img class="img" src="/assets/moralDesignClub/alternative2.webp" />
       </section>
       <hr />
       <section id="section6">
@@ -139,7 +139,7 @@ export const moralDesignClub = (
           <img src="/assets/moralDesignClub/pattern2.webp" />
           <img src="/assets/moralDesignClub/pattern3.webp" />
         </div>
-        <div class="phone">
+        <div class="gallery">
           <img src="/assets/moralDesignClub/notatnik1.webp" />
           <img src="/assets/moralDesignClub/notatnik2.webp" />
         </div>
@@ -171,7 +171,7 @@ export const moralDesignClub = (
           sustainable practices within the creative community, leaving me genuinely
           <strong>hopeful for the future of design </strong>.
         </p>
-        <div class="phone">
+        <div class="gallery">
           <img src="/assets/moralDesignClub/stickers1.webp" />
           <img src="/assets/moralDesignClub/stickers2.webp" />
         </div>

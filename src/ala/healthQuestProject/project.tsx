@@ -61,38 +61,38 @@ export const HealthQuestProject = (
         <h2>Transforming daily routines into gamified quests and character progression is the key</h2>
 
         <div class="phone">
+          <div class="mobile-view left">
+            <img src="/assets/HealthQuest obrazki/iPhone 13 mini1.webp" />
+          </div>
           <div class="info-to-mobile">
             <h2>AI-based quest recommendations aligned with user preferences</h2>
             <p>👉 Home screen with user’s chibi avatar encouraging a personal connection </p>
             <p>👉Daily quests with icons and descriptions, earning coins and experience points</p>
           </div>
-          <div class="mobile-view ">
-            <img src="/assets/HealthQuest obrazki/iPhone 13 mini1.webp" />
-          </div>
         </div>
 
         <div class="phone">
-          <div>
-            <h2>Accountability partners and character customization</h2>
-            <p>
-              👉 Avatar customization with various options for clothing and accessories in order to improve bond with
-              the character{" "}
-            </p>
-            <p>👉 Positive reinforcement through encouraging messages and virtual rewards for milestones</p>
-          </div>
           <div class="mobile-view">
             <img src="/assets/HealthQuest obrazki/iPhone 13 mini - 5 copy.webp" />
           </div>
+          <div class="info-to-mobile">
+            <h2>Accountability partners and character customization</h2>
+            <p>
+              👉 Avatar customization with various options for clothing and accessories in order to improve bond with
+              the character
+            </p>
+            <p>👉 Positive reinforcement through encouraging messages and virtual rewards for milestones</p>
+          </div>
         </div>
 
         <div class="phone">
+          <div class="mobile-view left ">
+            <img src="/assets/HealthQuest obrazki/iPhone 13 mini - 8 copy.webp" />
+          </div>
           <div class="info-to-mobile">
             <h2>Goal progression tracker and shared quests</h2>
             <p>👉 Daily, weekly and monthly goal tracker, adjustable within goal options </p>
             <p>👉 Social challenges to bond with friends with rewarded participation</p>
-          </div>
-          <div class="mobile-view ">
-            <img src="/assets/HealthQuest obrazki/iPhone 13 mini - 8 copy.webp" />
           </div>
         </div>
       </section>
@@ -149,7 +149,7 @@ export const HealthQuestProject = (
       <hr />
       <section id="section6">
         <h5>Ideation</h5>
-        <video controls>
+        <video controls class="full-video">
           <source src="/assets/HealthQuest obrazki/Main Comp 1-1.m4v" type="video/mp4" />
         </video>
       </section>

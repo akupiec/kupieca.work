@@ -1,0 +1,50 @@
+.phone {
+  margin-top: 4rem;
+  width: 100%;
+
+  img {
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: $screen-md) {
+  .phone {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+
+    .info-to-mobile {
+      grid-column: 2 span;
+    }
+
+    .mobile-view {
+      grid-column: 1 span;
+      order: 1;
+
+      &.left {
+        order: 0;
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-lg) {
+  .phone {
+    width: 83%;
+    grid-template-columns: repeat(6, 1fr);
+    .info-to-mobile {
+      grid-column: 3 span;
+    }
+
+    .mobile-view {
+      grid-column: 2 span;
+    }
+  }
+}

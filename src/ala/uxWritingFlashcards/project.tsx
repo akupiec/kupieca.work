@@ -22,7 +22,7 @@ export const uxWritingFlashcards = (
     <div class="content">
       <section id="section1">
         <h1>UX Writing Flashcards</h1>
-        <div class="paragraph app">
+        <div class="app">
           <div>
             <h5>Tools</h5>
             <ul class="tools-list">
@@ -59,41 +59,41 @@ export const uxWritingFlashcards = (
         <h5>Solution</h5>
         <h2>Fun, bold and modern educational materials that are engaging and easy to understand. </h2>
 
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Visually Engaging Design</h2>
             <p>
               Using ink traces and bold orange lines, the design captures attention and enhances the learning
               experience, making it both <strong>visually stimulating and memorable.</strong>
             </p>
           </div>
-          <div class="mobile-view ">
+          <div class="view left">
             <img src="/assets/uxWritingFlashcards/mockup.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div class="info-to-mobile2">
+        <div class="desktop">
+          <div class="info">
             <h2>Reader-Centric Approach</h2>
             <p>
               The project emphasizes UX writing principles centered on reader usefulness, ensuring that the information
               is presented in a <strong>clear and user-friendly manner.</strong>
             </p>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="/assets/uxWritingFlashcards/3cards.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Fun and Bold Learning</h2>
             <p>
               The project's main strength lies in its approach to making the learning process enjoyable for junior UX
               designers, employing <strong> a fun and bold design </strong>that facilitates concept comprehension.
             </p>
           </div>
-          <div class="mobile-view ">
+          <div class="view left">
             <img src="/assets/uxWritingFlashcards/wholepack.webp" />
           </div>
         </div>

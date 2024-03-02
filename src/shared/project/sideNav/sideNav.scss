@@ -4,7 +4,7 @@
   display: none;
   position: sticky;
   float: right;
-  top: 1rem;
+  top: 8rem;
   margin-top: 3rem;
   right: 0;
   max-width: 8rem;
@@ -35,7 +35,7 @@
 
 @media screen and (min-width: $screen-md) {
   .content {
-    margin-right: 10rem;
+    margin-right: 16rem;
   }
 
   .sticky-nav {

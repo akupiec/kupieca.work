@@ -1,0 +1,30 @@
+a {
+  color: var(--blue-200);
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+p {
+  line-height: 1.6rem;
+
+  a {
+    padding: 0 0.4em;
+  }
+}
+
+.underline-green {
+  border-bottom: 2px solid var(--green-100);
+}
+
+body.dark-theme {
+  a {
+    color: var(--green-100);
+  }
+
+  .underline-green {
+    border-bottom: 2px solid var(--green-200);
+  }
+}

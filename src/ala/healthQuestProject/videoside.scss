@@ -1,0 +1,29 @@
+.videoside {
+  display: block;
+  max-width: 100%;
+
+  video {
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .video-text {
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (min-width: $screen-md) {
+  .videoside {
+    display: flex;
+
+    .video-text,
+    video {
+      max-width: 50%;
+    }
+
+    video {
+      width: auto;
+    }
+  }
+}

@@ -85,6 +85,6 @@ export const Ala = (
         <img src="/assets/MainPageImages/Wiseway-comigsoon.webp" alt="Wise Way App Design" />
       </ProjectCard>
     </div>
-    <Footer />
+    <Footer topId="#hi" />
   </>
 );

@@ -78,14 +78,3 @@
     }
   }
 }
-
-//extra large
-@media screen and (min-width: $screen-xlg) {
-  :root {
-    --page-margin: 32px auto;
-  }
-
-  body {
-    max-width: 1920px;
-  }
-}

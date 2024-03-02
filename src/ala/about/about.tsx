@@ -8,9 +8,8 @@ export const AlaAbout = (
       <div>
         <h2>Get to know me 👋</h2>
         <p>
-          I'm diving headfirst into the world of design with a{" "}
-          <span className="underline-green"> burning passion </span> for making things awesome and sustainable. Right
-          now, I'm in the final stretch of my{" "}
+          I'm diving headfirst into the world of design with a<span className="underline-green"> burning passion </span>{" "}
+          for making things awesome and sustainable. Right now, I'm in the final stretch of my
           <a href="https://iszd.uken.krakow.pl/kandydat/o-kierunku/" className="links">
             master's degree
           </a>
@@ -20,9 +19,8 @@ export const AlaAbout = (
         <p>
           I had this amazing moment at the
           <a href="https://kms.org.pl/akademicki-maraton-innowacji/" className="links">
-            {" "}
-            KMS hackathon{" "}
-          </a>{" "}
+            KMS hackathon
+          </a>
           where my team won by coming up with a great idea, designing it, and nailing the presentation. Now, being
           invited to an <span className="underline-green">accelerator program </span> is like the high point in my
           story!
@@ -37,8 +35,7 @@ export const AlaAbout = (
         <p>
           While all this is happening, I'm honing my skills through
           <a href="https://www.dareit.io/mentoring" className="links">
-            {" "}
-            DareIT mentorship{" "}
+            DareIT mentorship
           </a>
           program, where I was one of the 120 mentees picked from almost 1,000 applicants!
         </p>

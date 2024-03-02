@@ -26,7 +26,7 @@ export const kinoPodBaranami = (
     <div class="content">
       <section id="section1">
         <h1>Cinema Website Revamp</h1>
-        <div class="paragraph app">
+        <div class="app">
           <div>
             <h5>Tools</h5>
             <ul class="tools-list">
@@ -42,7 +42,6 @@ export const kinoPodBaranami = (
               In my User Interface Design course, I had the opportunity to revamp a cultural website that, in our
               opinion, suffered from poor design. My choice was the renowned Cracow cinema,
               <a href="https://www.kinoPodBaranami.pl/" target="_blank" class="links">
-                {" "}
                 Kino pod Baranami
               </a>
               , known for its cluttered and impossible-to-use website.
@@ -79,7 +78,7 @@ export const kinoPodBaranami = (
         <p>
           The website of "Kino pod Baranami" is <strong> notorious for its user-unfriendliness</strong>, yet the cinema
           itself boasts a rich tradition that resonates with people who yearn for the unique experience of screenings
-          and discussions at this iconic venue. However, faced with escalating taxes and{" "}
+          and discussions at this iconic venue. However, faced with escalating taxes and
           <strong>heightened competition in the screening industry</strong>, potential patrons often find themselves
           frustrated and disheartened, navigating a cumbersome website that
           <strong> leads them to abandon their purchases</strong> before reaching completion.
@@ -90,21 +89,21 @@ export const kinoPodBaranami = (
         <h5>Solution</h5>
         <h2>Crafting clear, easy to read and popular design by taking inspiration from the e-commerce websites</h2>
 
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Enhanced navigation with a clear hierarchy</h2>
             <p>👉 Reorganizing previously chaotic and duplicated content into well-defined headers and footers</p>
             <p>
               👉 Concealing less critical information in the footer to streamline both the website and user experience
             </p>
           </div>
-          <div class="mobile-view ">
+          <div class="view left">
             <img src="/assets/CinemaRevamp/Revamp5.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div>
+        <div class="desktop">
+          <div class="info">
             <h2>Main Page makeover</h2>
             <p>
               👉 Adopting an e-commerce approach by featuring current hot films, events, and customer promotions in a
@@ -116,29 +115,29 @@ export const kinoPodBaranami = (
               about each video.
             </p>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="/assets/CinemaRevamp/Revamp1.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div class="info-to-mobile">
+        <div class="desktop">
+          <div class="info">
             <h2>Exclusive benefits for loyal patrons</h2>
             <p>👉 Effortless management of discounts and club memberships </p>
             <p>👉 Personalized movie suggestions tailored just for patron</p>
             <p>
               👉 Access to comprehensive history of watched videos alongside with convenient option to leave reviews and
-              share thoughts{" "}
+              share thoughts
             </p>
             <p>👉 Easy retrieval of purchased tickets for hassle-free cinema experiences</p>
           </div>
-          <div class="mobile-view ">
+          <div class="view  left">
             <img src="/assets/CinemaRevamp/Revamp3.webp" />
           </div>
         </div>
 
-        <div class="phone">
-          <div>
+        <div class="desktop">
+          <div class="info">
             <h2>Seamless ticketing experience</h2>
             <p>👉 A dedicated ticket purchasing page seamlessly integrated with the overall website aesthetics</p>
             <p>👉 Effortless access to download tickets, showcasing them conveniently through QR codes</p>
@@ -147,7 +146,7 @@ export const kinoPodBaranami = (
               cinema experience
             </p>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="/assets/CinemaRevamp/tickets.webp" />
           </div>
         </div>
@@ -157,11 +156,11 @@ export const kinoPodBaranami = (
         <h5>Process</h5>
         <p>
           The process involved <strong> extensive research</strong> about competition, patrons preferences, history of
-          the Kino pod Baranami cinema, page analysis, testing with potential users and{" "}
+          the Kino pod Baranami cinema, page analysis, testing with potential users and
           <strong> many, many iterations</strong>. The process was not linear - it involved lots of going back and forth
           towards the goal.
         </p>
-        <div class="paragraph process">
+        <div class="process">
           <div class="process-box">
             <h2>Research</h2>
           </div>
@@ -205,10 +204,13 @@ export const kinoPodBaranami = (
           <img src="/assets/CinemaRevamp/KPB2.webp" />
           <img src="/assets/CinemaRevamp/KPB3.webp" />
         </div>
-        <hr id="section7" />
-        <div class="phone">
-          <div>
-            <h2>User Interviews & Testing</h2>
+      </section>
+
+      <hr />
+      <section id="section7">
+        <h2>User Interviews & Testing</h2>
+        <div class="desktop">
+          <div class="info">
             <p>
               I conducted user interviews and tests with two experienced patrons and two new customers, using the
               attached script. The key takeaway is that <strong> even experienced users struggled with tasks</strong>,
@@ -222,7 +224,7 @@ export const kinoPodBaranami = (
               <p>👉 The Interview Script and Results 👈</p>
             </a>
           </div>
-          <div class="mobile-view">
+          <div class="view">
             <img src="" alt="sorry for placeholder" />
           </div>
         </div>
@@ -252,7 +254,7 @@ export const kinoPodBaranami = (
         <a href="https://www.figma.com/community/file/1247159387747902249/cinema-redesign">
           <h2> 👉 You can check my Figma File here 👈</h2>
         </a>
-        <video controls>
+        <video controls class="full-video">
           <source src="/assets/CinemaRevamp/Free Macbook Pro On Table Mockup-1.m4v" type="video/mp4" />
         </video>
       </section>

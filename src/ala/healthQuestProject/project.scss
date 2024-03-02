@@ -3,6 +3,9 @@
 @import "../../shared/project/process/process";
 @import "../../shared/project/sideNav/sideNav";
 @import "../../shared/project/ending/ending";
+@import "phone";
+@import "videoside";
+@import "full-video";
 
 .app {
   h5 {
@@ -25,25 +28,6 @@ h5 {
   font-weight: normal;
   font-size: 1rem;
   color: var(--gray-100);
-}
-
-.phone {
-  margin-top: 4rem;
-
-  img {
-    max-width: 100%;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
-    margin-top: 1rem;
-  }
-
-  margin-bottom: 3.5rem;
-}
-
-video {
-  max-width: 100%;
-  border-radius: 1em;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .style-guide {
@@ -71,35 +55,5 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem;
-    max-width: 1080px;
-  }
-  .phone {
-    display: grid;
-    justify-self: center;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1rem;
-    max-width: 800px;
-  }
-
-  .mobile-view {
-    order: 0;
-    justify-self: center;
-  }
-  .info-to-mobile {
-    order: 1;
-    align-self: auto;
-  }
-  .video-text {
-    max-width: 500px;
-    margin-right: 3rem;
-  }
-  .videoside {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: $screen-lg) {
-  .phone {
-    margin: 6rem 3rem 6rem 3rem;
   }
 }
