@@ -237,7 +237,7 @@ export const ConversationWithDad = (
           <p>
             Exploring Glagolica deepened my <strong> understanding of language creation </strong>, highlighting how we,
             as creative beings, shape our communication systems. Despite the challenges in discovering and learning
-            about Glagolica I found out that there are many parallels between modern Polish and ancient script,{" "}
+            about Glagolica I found out that there are many parallels between modern Polish and ancient script,
             <strong>its remnants persist in our daily lives</strong>—a reflection reminiscent of the experiences of
             those affected by aphasia.
           </p>

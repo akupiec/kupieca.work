@@ -52,7 +52,7 @@ export const moralDesignClub = (
         <p>
           Through dynamic projects, graphic designers try to <strong>contribute to the process of changes</strong>
           taking place in society and in the industry itself. Using moderation, inspiration and involvement, they
-          <strong> encourage people</strong> to shape their opinions and stimulate them to{" "}
+          <strong> encourage people</strong> to shape their opinions and stimulate them to
           <strong> take action.</strong>
         </p>
         <h2>Core Values</h2>
@@ -160,9 +160,8 @@ export const moralDesignClub = (
           the initiative to <strong>design and distribute a series of impactful environmental stickers</strong>. These
           were strategically disseminated at notable events such as
           <a href="https://www.instagram.com/krakowzinefest" target="_blank">
-            {" "}
-            Zine Fest in Krakow 🡕
-          </a>{" "}
+            Zine Fest in Krakow🡕
+          </a>
           and various other gatherings, including within my university community.
         </p>
         <p>
