@@ -31,7 +31,7 @@ export const Ala = (
         tags={["UX/UI", "Responsive Web Design"]}
         projectInfo="Revamping the cinema website for better navigation, a minimalist landing page, and a dedicated 'My Page' for loyal customers.">
         <a href="/ala/kinoPodBaranami">
-          <img src="/assets/MainPageImages/kinoPodBaranami.webp" alt="kinoPodBaranami" />
+          <img src="/assets/MainPageImages/KinoPodBaranami.webp" alt="kinoPodBaranami" />
         </a>
       </ProjectCard>
 
