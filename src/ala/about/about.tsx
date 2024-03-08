@@ -50,7 +50,7 @@ export const AlaAbout = (
           positive impact!
         </p>
       </div>
-      <img src="/assets/AboutMe Photo.webp" alt="Girl with dog" />
+      <img src="/assets/aboutMePhoto.webp" alt="Girl with dog" />
     </div>
 
     <div class="hobbies">

@@ -7,7 +7,7 @@ import { Ending } from "../../shared/project/ending/ending";
 export const kinoPodBaranami = (
   <>
     <AlaHeader />
-    <Banner src="/assets/CinemaRevamp/banner.webp" />
+    <Banner src="/assets/cinemaRevamp/banner.webp" />
     <SideNav
       links={[
         { url: "#section1", title: "Overview" },
@@ -98,7 +98,7 @@ export const kinoPodBaranami = (
             </p>
           </div>
           <div class="view left">
-            <img src="/assets/CinemaRevamp/Revamp5.webp" />
+            <img src="/assets/cinemaRevamp/revamp5.webp" />
           </div>
         </div>
 
@@ -116,7 +116,7 @@ export const kinoPodBaranami = (
             </p>
           </div>
           <div class="view">
-            <img src="/assets/CinemaRevamp/Revamp1.webp" />
+            <img src="/assets/cinemaRevamp/revamp1.webp" />
           </div>
         </div>
 
@@ -132,7 +132,7 @@ export const kinoPodBaranami = (
             <p>👉 Easy retrieval of purchased tickets for hassle-free cinema experiences</p>
           </div>
           <div class="view  left">
-            <img src="/assets/CinemaRevamp/Revamp3.webp" />
+            <img src="/assets/cinemaRevamp/revamp3.webp" />
           </div>
         </div>
 
@@ -147,7 +147,7 @@ export const kinoPodBaranami = (
             </p>
           </div>
           <div class="view">
-            <img src="/assets/CinemaRevamp/tickets.webp" />
+            <img src="/assets/cinemaRevamp/tickets.webp" />
           </div>
         </div>
       </section>
@@ -164,19 +164,19 @@ export const kinoPodBaranami = (
           <div class="process-box">
             <h2>Research</h2>
           </div>
-          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <img class="process-arrow" src="/assets/arrowProcess.svg" />
           <div class="process-box">
             <h2>Wireframing</h2>
           </div>
-          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <img class="process-arrow" src="/assets/arrowProcess.svg" />
           <div class="process-box">
             <h2>Prototype</h2>
           </div>
-          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <img class="process-arrow" src="/assets/arrowProcess.svg" />
           <div class="process-box">
             <h2>Testing</h2>
           </div>
-          <img class="process-arrow" src="/assets/ArrowProcess.svg" />
+          <img class="process-arrow" src="/assets/arrowProcess.svg" />
           <div class="process-box">
             <h2>Final Design</h2>
           </div>
@@ -200,9 +200,9 @@ export const kinoPodBaranami = (
           activities, however, it does not offer a place for a club member or permanent patron on the website
         </p>
         <div class="patterns">
-          <img src="/assets/CinemaRevamp/KPB1.webp" />
-          <img src="/assets/CinemaRevamp/KPB2.webp" />
-          <img src="/assets/CinemaRevamp/KPB3.webp" />
+          <img src="/assets/cinemaRevamp/kpb1.webp" />
+          <img src="/assets/cinemaRevamp/kpb2.webp" />
+          <img src="/assets/cinemaRevamp/kpb3.webp" />
         </div>
       </section>
 
@@ -237,8 +237,8 @@ export const kinoPodBaranami = (
       <hr />
       <section id="section9" class="style-guide">
         <h5>Style Guide</h5>
-        <img src="/assets/CinemaRevamp/StyleGuide.webp" />
-        <img src="/assets/CinemaRevamp/StyleGuide2.webp" />
+        <img src="/assets/cinemaRevamp/styleGuide.webp" />
+        <img src="/assets/cinemaRevamp/styleGuide2.webp" />
       </section>
       <hr />
       <section id="section10">
@@ -255,7 +255,7 @@ export const kinoPodBaranami = (
           <h2> 👉 You can check my Figma File here 👈</h2>
         </a>
         <video controls class="full-video">
-          <source src="/assets/CinemaRevamp/Free Macbook Pro On Table Mockup-1.m4v" type="video/mp4" />
+          <source src="/assets/cinemaRevamp/mockup.m4v" type="video/mp4" />
         </video>
       </section>
       <hr />

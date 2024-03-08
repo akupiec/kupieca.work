@@ -7,7 +7,7 @@ import { Ending } from "../../shared/project/ending/ending";
 export const moralDesignClub = (
   <>
     <AlaHeader />
-    <Banner src="/assets/MoralDesignClub/banner.webp" />
+    <Banner src="/assets/moralDesignClub/banner.webp" />
     <SideNav
       links={[
         { url: "#section1", title: "Overview" },
@@ -107,7 +107,7 @@ export const moralDesignClub = (
         <h5>Mindmap</h5>
         <h2>Exploring symbolism connected to ethical design collectives.</h2>
 
-        <img src="/assets/MoralDesignClub/mindmap.webp" />
+        <img src="/assets/moralDesignClub/mindmap.webp" />
       </section>
       <hr />
       <section id="section4">
@@ -120,36 +120,36 @@ export const moralDesignClub = (
           encapsulates a narrative of <strong>taking action in a secure community</strong>, with a keen eye on
           perceiving ideas and addressing challenges.
         </p>
-        <img src="/assets/MoralDesignClub/szkicownik.webp" />
+        <img src="/assets/moralDesignClub/szkicownik.webp" />
       </section>
       <hr />
       <section id="section5">
         <h5>Logo Design</h5>
         <div class="gallery">
-          <img src="/assets/MoralDesignClub/logosiatka1.webp" />
-          <img src="/assets/MoralDesignClub/logobasic.webp" />
+          <img src="/assets/moralDesignClub/logosiatka1.webp" />
+          <img src="/assets/moralDesignClub/logobasic.webp" />
         </div>
-        <img src="/assets/MoralDesignClub/alternative3.webp" />
-        <img class="img" src="/assets/MoralDesignClub/alternative2.webp" />
+        <img src="/assets/moralDesignClub/alternative3.webp" />
+        <img class="img" src="/assets/moralDesignClub/alternative2.webp" />
       </section>
       <hr />
       <section id="section6">
         <h5>Patterns&Usage</h5>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/pattern1.webp" />
-          <img src="/assets/MoralDesignClub/pattern2.webp" />
-          <img src="/assets/MoralDesignClub/pattern3.webp" />
+          <img src="/assets/moralDesignClub/pattern1.webp" />
+          <img src="/assets/moralDesignClub/pattern2.webp" />
+          <img src="/assets/moralDesignClub/pattern3.webp" />
         </div>
         <div class="gallery">
-          <img src="/assets/MoralDesignClub/notatnik1.webp" />
-          <img src="/assets/MoralDesignClub/notatnik2.webp" />
+          <img src="/assets/moralDesignClub/notatnik1.webp" />
+          <img src="/assets/moralDesignClub/notatnik2.webp" />
         </div>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/przypinka.webp" />
-          <img src="/assets/MoralDesignClub/torba.webp" />
-          <img src="/assets/MoralDesignClub/wizytówki.webp" />
+          <img src="/assets/moralDesignClub/przypinka.webp" />
+          <img src="/assets/moralDesignClub/torba.webp" />
+          <img src="/assets/moralDesignClub/wizytowki.webp" />
         </div>
-        <img src="/assets/MoralDesignClub/posters.webp" />
+        <img src="/assets/moralDesignClub/posters.webp" />
       </section>
       <hr />
       <section id="section7">
@@ -173,13 +173,13 @@ export const moralDesignClub = (
           <strong> hopeful for the future of design </strong>.
         </p>
         <div class="gallery">
-          <img src="/assets/MoralDesignClub/stickers1.webp" />
-          <img src="/assets/MoralDesignClub/stickers2.webp" />
+          <img src="/assets/moralDesignClub/stickers1.webp" />
+          <img src="/assets/moralDesignClub/stickers2.webp" />
         </div>
         <div class="patterns">
-          <img src="/assets/MoralDesignClub/ppl1.webp" />
-          <img src="/assets/MoralDesignClub/ppl3.webp" />
-          <img src="/assets/MoralDesignClub/ppl2.webp" />
+          <img src="/assets/moralDesignClub/ppl1.webp" />
+          <img src="/assets/moralDesignClub/ppl3.webp" />
+          <img src="/assets/moralDesignClub/ppl2.webp" />
         </div>
       </section>
       <hr />

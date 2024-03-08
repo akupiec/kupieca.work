@@ -8,7 +8,7 @@ import { Ending } from "../../shared/project/ending/ending";
 export const HealthQuestProject = (
   <>
     <AlaHeader />
-    <Banner src="/assets/HealthQuest obrazki/Banner copy.webp" />
+    <Banner src="/assets/healthQuestObrazki/banner.webp" />
     <SideNav
       links={[
         { url: "#section1", title: "Overview" },
@@ -62,7 +62,7 @@ export const HealthQuestProject = (
 
         <div class="phone">
           <div class="mobile-view left">
-            <img src="/assets/HealthQuest obrazki/iPhone 13 mini1.webp" />
+            <img src="/assets/healthQuestObrazki/iPhone1.webp" />
           </div>
           <div class="info-to-mobile">
             <h2>AI-based quest recommendations aligned with user preferences</h2>
@@ -73,7 +73,7 @@ export const HealthQuestProject = (
 
         <div class="phone">
           <div class="mobile-view">
-            <img src="/assets/HealthQuest obrazki/iPhone 13 mini - 5 copy.webp" />
+            <img src="/assets/healthQuestObrazki/iPhone5.webp" />
           </div>
           <div class="info-to-mobile">
             <h2>Accountability partners and character customization</h2>
@@ -87,7 +87,7 @@ export const HealthQuestProject = (
 
         <div class="phone">
           <div class="mobile-view left ">
-            <img src="/assets/HealthQuest obrazki/iPhone 13 mini - 8 copy.webp" />
+            <img src="/assets/healthQuestObrazki/iPhone8.webp" />
           </div>
           <div class="info-to-mobile">
             <h2>Goal progression tracker and shared quests</h2>
@@ -150,13 +150,13 @@ export const HealthQuestProject = (
       <section id="section6">
         <h5>Ideation</h5>
         <video controls class="full-video">
-          <source src="/assets/HealthQuest obrazki/Main Comp 1-1.m4v" type="video/mp4" />
+          <source src="/assets/healthQuestObrazki/mainComp.m4v" type="video/mp4" />
         </video>
       </section>
       <hr />
       <section id="section7" class="paragrah style-guide">
         <h5>Style Guide</h5>
-        <img src="/assets/HealthQuest obrazki/StyleGuide.webp" />
+        <img src="/assets/healthQuestObrazki/styleGuide.webp" />
       </section>
       <hr />
       <section id="section8" class="videoside">
@@ -170,7 +170,7 @@ export const HealthQuestProject = (
           </p>
         </div>
         <video controls>
-          <source src="/assets/HealthQuest obrazki/Phone In Hand Mockuphelathquest-1.m4v" type="video/mp4" />
+          <source src="/assets/healthQuestObrazki/phoneMockup.m4v" type="video/mp4" />
         </video>
       </section>
       <hr />

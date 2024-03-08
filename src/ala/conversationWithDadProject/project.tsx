@@ -8,7 +8,7 @@ import { Ending } from "../../shared/project/ending/ending";
 export const ConversationWithDad = (
   <>
     <AlaHeader />
-    <Banner src="/assets/conversations with dad obrazki/Banner copy.webp" />
+    <Banner src="/assets/conversationsWithDadObrazki/banner.webp" />
     <SideNav
       links={[
         { url: "#section1", title: "Overview" },
@@ -80,7 +80,7 @@ export const ConversationWithDad = (
             </p>
           </div>
           <div class="view left">
-            <img src="/assets/conversations with dad obrazki/1.webp" />
+            <img src="/assets/conversationsWithDadObrazki/1.webp" />
           </div>
         </div>
 
@@ -96,7 +96,7 @@ export const ConversationWithDad = (
             </p>
           </div>
           <div class="view">
-            <img src="/assets/conversations with dad obrazki/2.webp" />
+            <img src="/assets/conversationsWithDadObrazki/2.webp" />
           </div>
         </div>
 
@@ -113,7 +113,7 @@ export const ConversationWithDad = (
             </p>
           </div>
           <div class="view left">
-            <img src="/assets/conversations with dad obrazki/3.webp" />
+            <img src="/assets/conversationsWithDadObrazki/3.webp" />
           </div>
         </div>
       </section>
@@ -172,7 +172,7 @@ export const ConversationWithDad = (
             </p>
           </div>
           <div class="viev left">
-            <img src="/assets/conversations with dad obrazki/dad.webp" />
+            <img src="/assets/conversationsWithDadObrazki/dad.webp" />
           </div>
         </div>
         <div class="desktop">
@@ -193,7 +193,7 @@ export const ConversationWithDad = (
             </p>
           </div>
           <div class="view">
-            <img src="/assets/conversations with dad obrazki/glagolica.webp" />
+            <img src="/assets/conversationsWithDadObrazki/glagolica.webp" />
           </div>
         </div>
       </section>
@@ -208,16 +208,16 @@ export const ConversationWithDad = (
         <h5>Final Design</h5>
         <h2>Perfect combination of aesthetics and encoded messages</h2>
         <video controls class="full-video">
-          <source src="/assets/conversations with dad obrazki/Finaldesignmovie-1.m4v" type="video/mp4" />
+          <source src="/assets/conversationsWithDadObrazki/finalDesignMovie.m4v" type="video/mp4" />
         </video>
 
         <div class="patterns">
-          <img src="\assets\conversations with dad obrazki\gallery1.webp" />
-          <img src="/assets/conversations with dad obrazki/gallery3.webp" />
-          <img src="/assets/conversations with dad obrazki/gallery2.webp" />
-          <img src="\assets\conversations with dad obrazki\gallery4.webp" />
-          <img src="/assets/conversations with dad obrazki/gallery6.webp" />
-          <img src="/assets/conversations with dad obrazki/gallery5.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery1.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery3.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery2.webp" />
+          <img src="/assetsconversationsWithDadObrazki/gallery4.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery6.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery5.webp" />
         </div>
       </section>
       <hr />
