@@ -31,7 +31,7 @@ export const Ala = (
         tags={["UX/UI", "Responsive Web Design"]}
         projectInfo="Revamping the cinema website for better navigation, a minimalist landing page, and a dedicated 'My Page' for loyal customers.">
         <a href="/ala/kinoPodBaranami">
-          <img src="/assets/MainPageImages/KinoPodBaranami.webp" alt="kinoPodBaranami" />
+          <img src="/assets/mainPageImages/kinoPodBaranami.webp" alt="kinoPodBaranami" />
         </a>
       </ProjectCard>
 
@@ -40,7 +40,7 @@ export const Ala = (
         tags={["UX/UI", "Mobile App"]}
         projectInfo="DareIT UX Challenge App for tracking and achieving health goals with user-friendly navigation and motivational features.">
         <a href="/ala/healthQuestProject">
-          <img src="/assets/MainPageImages/HealthQuest.webp" alt="HealthQuest" />
+          <img src="/assets/mainPageImages/healthQuest.webp" alt="HealthQuest" />
         </a>
       </ProjectCard>
 
@@ -49,7 +49,7 @@ export const Ala = (
         tags={["UX Writing", "Graphic Design"]}
         projectInfo="Series of flash cards explaining UX writing, introducing the concept based on principles oriented towards reader usefulness.">
         <a href="/ala/uxWritingFlashcards">
-          <img src="/assets/MainPageImages/kartyUXWritting.webp" alt="UX Writing Flashcards" />
+          <img src="/assets/mainPageImages/kartyUXWritting.webp" alt="UX Writing Flashcards" />
         </a>
       </ProjectCard>
 
@@ -58,7 +58,7 @@ export const Ala = (
         tags={["Brand Design", "Graphic Design", "Logo Design"]}
         projectInfo="Brand Concept for space for creatives to design solutions for societal and environmental issues">
         <a href="/ala/moralDesignClub">
-          <img src="/assets/MainPageImages/moralDesignClub.webp" alt="Moral Design Club Branding" />
+          <img src="/assets/mainPageImages/moralDesignClub.webp" alt="Moral Design Club Branding" />
         </a>
       </ProjectCard>
 
@@ -67,7 +67,7 @@ export const Ala = (
         tags={["Editorial Design", "Graphic Design"]}
         projectInfo="Deeply personal side project exploring the impact of secondary illiteracy and aphasia">
         <a href="/ala/conversationWithDadProject">
-          <img src="/assets/MainPageImages/TataZin.webp" alt="Conversations with Dad" />
+          <img src="/assets/mainPageImages/tataZin.webp" alt="Conversations with Dad" />
         </a>
       </ProjectCard>
 
@@ -75,14 +75,14 @@ export const Ala = (
         title="Web Aspect - Sustainable UX Design 🔒"
         tags={["UX/UI", "Responsive Web Design", "Brand Design", "Graphic Design"]}
         projectInfo="Coming soon!">
-        <img src="/assets/MainPageImages/WebAspect-coming soon.webp" alt="Web Aspect - Sustainable UX Design" />
+        <img src="/assets/mainPageImages/webAspectComingSoon.webp" alt="Web Aspect - Sustainable UX Design" />
       </ProjectCard>
 
       <ProjectCard
         title="WiseWay Hackathon Winner 🔒"
         tags={["UX/UI", "Responsive Web Design"]}
         projectInfo="Coming soon!">
-        <img src="/assets/MainPageImages/Wiseway-comigsoon.webp" alt="Wise Way App Design" />
+        <img src="/assets/mainPageImages/wisewayComingSoon.webp" alt="Wise Way App Design" />
       </ProjectCard>
     </div>
     <Footer topId="#hi" />

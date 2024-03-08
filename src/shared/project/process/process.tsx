@@ -8,7 +8,7 @@ export function ProcessElement({ title, children }: { title: string; children: a
 }
 
 export function Process({ children }: { children: any[] }) {
-  const arrow = <img className="process-arrow" src="/assets/ArrowProcess.svg" />;
+  const arrow = <img className="process-arrow" src="/assets/arrowProcess.svg" />;
   const content = children.map((child, idx) => {
     return (
       <>

@@ -68,7 +68,7 @@ export const uxWritingFlashcards = (
             </p>
           </div>
           <div class="view left">
-            <img src="/assets/UXWritingFlashcards/mockup.webp" />
+            <img src="/assets/uxWritingFlashcards/mockup.webp" />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export const uxWritingFlashcards = (
             </p>
           </div>
           <div class="view">
-            <img src="/assets/UXWritingFlashcards/3cards.webp" />
+            <img src="/assets/uxWritingFlashcards/3cards.webp" />
           </div>
         </div>
 
@@ -94,7 +94,7 @@ export const uxWritingFlashcards = (
             </p>
           </div>
           <div class="view left">
-            <img src="/assets/UXWritingFlashcards/wholepack.webp" />
+            <img src="/assets/uxWritingFlashcards/wholepack.webp" />
           </div>
         </div>
       </section>
@@ -132,7 +132,7 @@ export const uxWritingFlashcards = (
           concept. Inspired by ink traces and featuring bold orange lines, the design not only conveys information
           effectively but also adds an element of enjoyment to the learning process for junior UX designers.
         </p>
-        <img src="/assets/UXWritingFlashcards/UXkit_final.webp" />
+        <img src="/assets/uxWritingFlashcards/uxkitFinal.webp" />
       </section>
       <hr />
       <section id="section8">
