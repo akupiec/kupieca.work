@@ -212,10 +212,10 @@ export const ConversationWithDad = (
         </video>
 
         <div class="patterns">
-          <img src="\assets\conversations with dad obrazki\gallery1.webp" />
+          <img src="/assets/conversationsWithDadObrazki/gallery1.webp" />
           <img src="/assets/conversationsWithDadObrazki/gallery3.webp" />
           <img src="/assets/conversationsWithDadObrazki/gallery2.webp" />
-          <img src="\assets\conversations with dad obrazki\gallery4.webp" />
+          <img src="/assetsconversationsWithDadObrazki/gallery4.webp" />
           <img src="/assets/conversationsWithDadObrazki/gallery6.webp" />
           <img src="/assets/conversationsWithDadObrazki/gallery5.webp" />
         </div>
